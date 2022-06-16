@@ -5,7 +5,7 @@ from primersjuju.config import PrimersJuJuConfig, GenomeConfig
 from primersjuju.genome_data import GenomeData
 from primersjuju.uniqueness_query import IsPcrServerSpec
 
-data_dir = osp.join(osp.dirname(configPyFile), "../../../data")
+data_dir = osp.join(osp.dirname(configPyFile), "../../../data/hg38")
 
 def data_path(fname):
     return osp.join(data_dir, fname)
@@ -19,6 +19,9 @@ hg38gd.add_track("gencodeV39",
 hg38gd.add_track("WTC11_consolidated",
                  data_path("WTC11_consolidated.bigBed"),
                  "http://conesalab.org/LRGASP/LRGASP_hub/hg38/Human_samples/WTC11_consolidated.bigBed")
+hg38gd.add_track("H1_MIX_consolidated",
+                 data_path("H1_mix_consolidated.bigBed"),
+                 "http://conesalab.org/LRGASP/LRGASP_hub/hg38/Human_samples/H1_mix_consolidated.bigBed")
 
 hg38config = GenomeConfig(hg38gd,
                           genome_ispcr_spec=IsPcrServerSpec("blat1d.soe.ucsc.edu", 17903, data_dir),
