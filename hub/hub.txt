@@ -1,0 +1,7 @@
+hub JuJu
+shortLabel PrimersJuJu
+longLabel PrimersJuJu
+genomesFile genomes.txt
+email markd@ucsc.edu
+descriptionUrl empty.html
+

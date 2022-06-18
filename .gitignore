@@ -132,3 +132,9 @@ dmypy.json
 analysis/
 data/
 results/
+
+*.fa
+*.bb
+*.bed
+juju_designs.*.tsv
+*.xslx
