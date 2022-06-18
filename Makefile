@@ -3,8 +3,18 @@ include ${ROOT}/defs.mk
 
 all:
 	@echo "available targets:"
+	@echo "  build"
+	@echo "  clean"
 	@echo "  venv - generate virtual env"
 	@exit 1
+
+build:
+	cd runs/hg38 && ${MAKE}
+	cd hub && ${MAKE}
+
+clean:
+	cd runs/hg38 && ${MAKE} clean
+	cd hub && ${MAKE} clean
 
 
 .PHONY: venv
