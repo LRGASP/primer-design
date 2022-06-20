@@ -23,9 +23,14 @@ hg38gd.add_track("H1_MIX_consolidated",
                  data_path("H1_mix_consolidated.bigBed"),
                  "http://conesalab.org/LRGASP/LRGASP_hub/hg38/Human_samples/H1_mix_consolidated.bigBed")
 
+
+genome_ispcr_spec=IsPcrServerSpec("blat1d.soe.ucsc.edu", 17903, data_dir)
+transcriptome_ispcr_spec=IsPcrServerSpec("hgwdev.gi.ucsc.edu", 12201, data_dir,
+                                         trans_bigbed=data_path("hg38_transcriptome.bb"))
+
+
 hg38config = GenomeConfig(hg38gd,
-                          genome_ispcr_spec=IsPcrServerSpec("blat1d.soe.ucsc.edu", 17903, data_dir),
-                          transcriptome_ispcr_spec=IsPcrServerSpec("blat1a.soe.ucsc.edu", 17907, data_dir,  # hg38KgSeqV39
-                                                                   trans_bigbed=data_path("gencodeV39.bb")))
+                          genome_ispcr_spec=genome_ispcr_spec,
+                          transcriptome_ispcr_spec=transcriptome_ispcr_spec)
 config = PrimersJuJuConfig()
 config.add_genome(hg38config)
