@@ -1,0 +1,16 @@
+* prepare spreedsheet
+1. https://hgwdev.gi.ucsc.edu/~markd/lrgasp/juju-hub/hg38/juju_designs.hg38.tsv
+2. import
+   open -a /Applications/Microsoft\ Excel.app juju_designs.hg38.tsv 
+3. view pane -> freeze first row and column
+4. select all and format -> column -> autofit
+5. make browser column blue
+5. save as xslx
+6. upload
+   scp juju_designs.hg38.xlsx $hgwdev:public_html/lrgasp/juju-hub/hg38/
+   
+   
+* other changes
+** Amplicon as thick start/end
+** input and adjusted
+
