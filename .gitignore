@@ -137,4 +137,4 @@ results/
 *.bb
 *.bed
 juju_designs.*.tsv
-*.xslx
+*.xlsx
