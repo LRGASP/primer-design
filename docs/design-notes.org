@@ -14,3 +14,11 @@
 ** Amplicon as thick start/end
 ** input and adjusted
 
+* CCDC106+1
+ERROR: Too many included regions
+Illegal INCLUDED_REGION value: 32,185 845,244
+
+* https://libnano.github.io/primer3-py/quickstart.html
+
+links to 
+http://primer3.sourceforge.net/primer3_manual.htm
