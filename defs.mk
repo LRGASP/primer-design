@@ -2,10 +2,12 @@ MAKEFLAGS = --no-builtin-rules
 SHELL = /bin/bash
 .SECONDARY:
 
-LRGASP_HUB_URL = http://conesalab.org/LRGASP/LRGASP_hub/hub.txt
+HG38_LRGASP_HUB_URL = http://conesalab.org/LRGASP/LRGASP_hub/hub.txt
+MANATEE_LRGASP_HUB_URL = http://conesalab.org/LRGASP/LRGASP_manatee_hub/manatee/hub.txt
 JUJU_HUB_URL = https://hgwdev.gi.ucsc.edu/~markd/lrgasp/juju-hub/hub.txt
 
-HUB_URLS = ${LRGASP_HUB_URL} ${JUJU_HUB_URL}
+HG38_HUB_URLS = ${HG38_LRGASP_HUB_URL} ${JUJU_HUB_URL}
+MANATEE_HUB_URLS = ${MANATEE_LRGASP_HUB_URL} ${JUJU_HUB_URL}
 
 pycbio = ${HOME}/compbio/code/pycbio
 

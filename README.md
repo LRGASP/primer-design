@@ -2,12 +2,11 @@
 Primer design for LRGASP evaluation
 
 
-## required files in data/ directory:
+# hg38 data construction
 
-data/hg38
+download to data/hg38/
 * hg38.2bit https://hgdownload.soe.ucsc.edu/gbdb/hg38/hg38.2bit
 * GCF_000001405.39_GRCh38.p13_assembly_report.txt https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/405/GCF_000001405.39_GRCh38.p13/GCF_000001405.39_GRCh38.p13_assembly_report.txt
-* hg38 assembly report https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/405/GCF_000001405.39_GRCh38.p13/GCF_000001405.39_GRCh38.p13_assembly_report.txt
 * gencodeV39.bb https://hgdownload.soe.ucsc.edu/gbdb/hg38/gencode/gencodeV39.bb
 * hg38KgSeqV39.2bit https://hgdownload.soe.ucsc.edu/gbdb/hg38/targetDb/hg38KgSeqV39.2bit
 * WTC11_consolidated.bigBed http://conesalab.org/LRGASP/LRGASP_hub/hg38/Human_samples/WTC11_consolidated.bigBed
@@ -44,3 +43,49 @@ start a gaServer for PCR:
 
   (gfServer start hgwdev.gi.ucsc.edu 12201 -stepSize=5 -log=lrgasp-hg38-pcr.log  /hive/users/markd/gencode/projs/lrgasp/primers/primer-design/data/hg38/hg38_transcriptome.2bit </dev/null >&/dev/null &)&
 
+# manatee data construction
+
+download to data/manatee/
+* manatee.2bit http://conesalab.org/LRGASP/LRGASP_manatee_hub/manatee/manatee/manatee.2bit
+* Annot.bb http://conesalab.org/LRGASP/LRGASP_manatee_hub/manatee/manatee/Annot.bb
+* Manatee_consolidated.bb http://conesalab.org/LRGASP/LRGASP_manatee_hub/manatee/manatee/Manatee_consolidated.bb
+
+
+Need to fix nameIndex in Annot.bb and Manatee_consolidated.bb
+  bigBedToBed Annot.bb Annot.tmp.bed
+  bedToBigBed -type=bed12+8 -tab -as=${HOME}/kent/src/hg/lib/bigGenePred.as -sizesIs2Bit -extraIndex=name Annot.tmp.bed manatee.2bit Annot.tmp.bb
+  mv Annot.tmp.bb Annot.bb
+
+  bigBedInfo -as Manatee_consolidated.bb  >isoformSummaryBed.as
+  bigBedToBed Manatee_consolidated.bb Manatee_consolidated.tmp.bed
+  bedToBigBed -type=bed12+21 -tab -as=isoformSummaryBed.as -sizesIs2Bit -extraIndex=name Manatee_consolidated.tmp.bed manatee.2bit Manatee_consolidated.tmp.bb
+  mv Manatee_consolidated.tmp.bb Manatee_consolidated.bb 
+  rm *.tmp.bed
+
+
+## isPcr blat servers for genome and that includes LRGASP transcript models
+
+
+Create transcriptome bed:
+  bigBedToBed Annot.bb stdout | cut -f 1-12 > Annot.tmp.bed &
+  bigBedToBed Manatee_consolidated.bb stdout| cut -f 1-12 > Manatee_consolidated.tmp.bed &
+  wait
+  sort -k1,1 -k2,2n Annot.tmp.bed Manatee_consolidated.tmp.bed > manatee_transcriptome.tmp.bed
+
+Create transcriptome bigBed
+  bedToBigBed -type=bed12 -tab -extraIndex=name -sizesIs2Bit manatee_transcriptome.tmp.bed manatee.2bit manatee_transcriptome.bb
+  
+Create transcriptome twobit
+  bedToGenePred manatee_transcriptome.tmp.bed stdout | getRnaPred  -genomeSeqs=manatee.2bit none stdin all stdout | faToTwoBit -ignoreDups -long stdin manatee_transcriptome.2bit
+
+Sanity check sizes with
+  twoBitInfo manatee_transcriptome.2bit stdout | sort -k 2,2nr | head
+
+Intermediates not needed 
+  rm *.tmp.bed
+
+start gaServers for PCR:
+  cd pcr
+
+  (gfServer start hgwdev.gi.ucsc.edu 12202 -stepSize=5 -log=lrgasp-manatee-transcriptome-pcr.log  /hive/users/markd/gencode/projs/lrgasp/primers/primer-design/data/manatee/manatee_transcriptome.2bit </dev/null >&/dev/null &)&
+  (gfServer start hgwdev.gi.ucsc.edu 12203 -stepSize=5 -log=lrgasp-manatee-genome-pcr.log  /hive/users/markd/gencode/projs/lrgasp/primers/primer-design/data/manatee/manatee.2bit </dev/null >&/dev/null &)&

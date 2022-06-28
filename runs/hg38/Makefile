@@ -2,17 +2,15 @@ ROOT = ../..
 include ${ROOT}/defs.mk
 
 
-hg38_hub_url_args = $(foreach h,${HUB_URLS},--huburl=$h)
+hg38_hub_url_args = $(foreach h,${HG38_HUB_URLS},--huburl=$h)
 
 debug = --debug
 
-WTC11_set1_done = results/WTC11_set1.done
+done_flag = results/done
 
-done_flags = ${WTC11_set1_done}
+all: ${done_flag}
 
-all: ${done_flags}
-
-${WTC11_set1_done}:
+${done_flag}:
 	@mkdir -p $(dir $@)
 	${primers_juju} ${debug} --conf=specs/config.py design ${hg38_hub_url_args} specs/LRGASP_WTC11_Target_set1.tsv $(dir $@)
 	touch $@

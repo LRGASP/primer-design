@@ -1,0 +1,7 @@
+target_id	trans_track	trans_id		region_5p	region_3p	gene_name	gene_id	trans_cat	trans_structural_cat	notes	trans_notes
+PTX3	manatee_consolidated	NIC-121112		"contig_6343_pilon:289,652-289,933"	"contig_6343_pilon:283,360-284,708"	PTX3			ONT/PB		both paltforms predic the same splice junction
+IL7+1	manatee_consolidated	NNC-298416		"contig_18545_pilon:248,317-249,336"	"contig_18545_pilon:308,303-309,177"	IL7			ONT		detect long exon vs two short exons 
+IL7_long	manatee_consolidated	NNC-252608		"contig_18545_pilon:246,932-247,441"	"contig_18545_pilon:308,303-309,177"	IL7			ONT/PB		"detect intermeidate and long isform from the short one, same 3' primer"
+TAP+1	manatee_consolidated	NNC-303935		"contig_7963_pilon:248,554-248,704"	"contig_7963_pilon:245,910-246,078"	TAP			ONT		detect longer 3' end exon and extra exon
+TAP+2	manatee_consolidated	NNC-145259		"contig_7963_pilon:248,554-248,704"	"contig_7963_pilon:246,326-246,450"	TAP			ONT		Shorter but with 2 exons 
+TNFAIP3+1	manatee_consolidated	NNC-302078		"contig_6299_pilon:965,414-965,628"	"contig_6299_pilon:956,653-956,800"	TNFAIP3			ONT		Detect isoforms with +1 exon 5' and another isofom that laks that exon and has an extra in the middle 

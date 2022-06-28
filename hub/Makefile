@@ -5,7 +5,7 @@ hubUrl = https://hgwdev.gi.ucsc.edu/~markd/lrgasp/juju-hub/hub.txt
 
 chromAlias_hg38 = https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.chromAlias.bb
 
-genomes = hg38
+genomes = hg38 manatee
 
 
 all: build

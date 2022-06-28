@@ -9,11 +9,10 @@ all:
 	@exit 1
 
 build:
-	cd runs/hg38 && ${MAKE}
+	cd runs && ${MAKE}
 	cd hub && ${MAKE}
-
 clean:
-	cd runs/hg38 && ${MAKE} clean
+	cd runs && ${MAKE} clean
 	cd hub && ${MAKE} clean
 
 
@@ -27,7 +26,5 @@ venv:
 	${PIP} install --upgrade -e ${pycbio}
 
 
-
-
-real-clean:
+real-clean: clean
 	rm -rf ${venv}
