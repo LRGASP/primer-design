@@ -2,7 +2,7 @@
 1. https://hgwdev.gi.ucsc.edu/~markd/lrgasp/juju-hub/hg38/juju_designs.hg38.tsv
 2. import
    open -a /Applications/Microsoft\ Excel.app juju_designs.hg38.tsv 
-3. view pane -> freeze first row and column
+3. view pane -> select B2 then freeze panes
 4. select all and format -> column -> autofit
 5. make browser column blue
 5. save as xslx
