@@ -1,0 +1,43 @@
+track targets
+bigDataUrl targets.bb
+shortLabel Targets
+longLabel Targets
+type bigBed 12
+itemRgb on
+visibility full
+maxItems 100000
+priority 10
+html ../empty.html
+
+track primers
+bigDataUrl primers.bb
+shortLabel Primers
+longLabel Primers
+type bigBed 12 +
+itemRgb on
+visibility full
+maxItems 100000
+priority 20
+html ../empty.html
+
+track transcriptome-uniqueness
+bigDataUrl transcriptome-uniqueness.bb
+shortLabel Transcriptome Uniqueness
+longLabel Transcriptome Uniqueness
+type bigBed 12 +
+itemRgb on
+visibility full
+maxItems 100000
+priority 20
+html ../empty.html
+
+track genome-uniqueness
+bigDataUrl genome-uniqueness.bb
+shortLabel Genome Uniqueness
+longLabel Genome Uniqueness
+type bigBed 12 +
+itemRgb on
+visibility full
+maxItems 100000
+priority 21
+html ../empty.html

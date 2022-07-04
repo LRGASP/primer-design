@@ -2,6 +2,9 @@ MAKEFLAGS = --no-builtin-rules
 SHELL = /bin/bash
 .SECONDARY:
 
+#genomes = hg38 manatee
+genomes = hg38
+
 HG38_LRGASP_HUB_URL = http://conesalab.org/LRGASP/LRGASP_hub/hub.txt
 MANATEE_LRGASP_HUB_URL = http://conesalab.org/LRGASP/LRGASP_manatee_hub/manatee/hub.txt
 JUJU_HUB_URL = https://hgwdev.gi.ucsc.edu/~markd/lrgasp/juju-hub/hub.txt

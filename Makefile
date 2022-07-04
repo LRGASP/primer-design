@@ -1,7 +1,9 @@
 ROOT = .
 include ${ROOT}/defs.mk
 
-all:
+all: build
+
+help:
 	@echo "available targets:"
 	@echo "  build"
 	@echo "  clean"
