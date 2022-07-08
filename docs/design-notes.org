@@ -1,3 +1,4 @@
+
 * prepare spreedsheet
 1. https://hgwdev.gi.ucsc.edu/~markd/lrgasp/juju-hub/hg38/juju_designs.hg38.tsv
 2. import
@@ -14,15 +15,6 @@
 ** Amplicon as thick start/end
 ** input and adjusted
 
-* CCDC106+1
-ERROR: Too many included regions
-Illegal INCLUDED_REGION value: 32,185 845,244
-
-* https://libnano.github.io/primer3-py/quickstart.html
-
-links to 
-http://primer3.sourceforge.net/primer3_manual.htm
-
 * Manatee problems
 *** Error: skipping IL7+1 due to errors in design specification:
 Error: target IL7+1 failed
@@ -37,3 +29,6 @@ caused by: specified primer region contig_18545_pilon:246931-247441 does not ove
 Error: target PTX3 failed
 caused by: specified primer region contig_6343_pilon:283359-284708 for transcript (manatee_consolidated, NIC-121112) must contain either one exon, or two exons and an intron: [ExonFeature(genome=Coords(name='contig_6343_pilon', start=283359, end=284694, strand='+', size=433550), trans=Coords(name='NIC-121112', start=30, end=1365, strand='-', size=1670))
  IntronFeature(genome=Coords(name='contig_6343_pilon', start=284694, end=284708, strand='+', size=433550), trans=Coords(name='NIC-121112', start=1365, end=1365, strand='-', size=1670))]
+
+* order list
+../../bin/juju-to-order juju_designs.hg38.tsv juju_designs.hg38.order.tsv

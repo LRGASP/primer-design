@@ -1,0 +1,32 @@
+#!/usr/bin/env python3
+
+import argparse
+from pycbio.tsv import TsvReader, intOrNoneType
+from pycbio.sys import fileOps
+
+def parse_args():
+    desc = """Convert a PrimerS-JuJu design TSV to the minimal information for
+    an order.  This outputs only the priority 1 primers"""
+    parser = argparse.ArgumentParser(description=desc)
+    parser.add_argument("designTsv",
+                        help="""PrimerS-Juju combined design TSV""")
+    parser.add_argument("orderTsv",
+                        help="""output with primer ids and primer sequences""")
+    return parser.parse_args()
+
+def load_pri1_design_tsv(designTsv):
+    typeMap = {"pri": intOrNoneType}
+    return [r for r in TsvReader(designTsv, typeMap=typeMap)
+            if r.pri == 1]
+
+def write_order(designs_pri1, fh):
+    fileOps.prRowv(fh, "primer_id", "left_primer", "right_primer")
+    for row in designs_pri1:
+        fileOps.prRowv(fh, row.primer_id, row.left_primer, row.right_primer)
+
+def main(args):
+    designs_pri1 = load_pri1_design_tsv(args.designTsv)
+    with open(args.orderTsv, 'w') as fh:
+        write_order(designs_pri1, fh)
+
+main(parse_args())
