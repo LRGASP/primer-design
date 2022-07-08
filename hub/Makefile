@@ -3,7 +3,9 @@ include ${ROOT}/defs.mk
 
 hubUrl = https://hgwdev.gi.ucsc.edu/~markd/lrgasp/juju-hub/hub.txt
 
-chromAlias_hg38 = https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.chromAlias.bb
+twoBit_hg38 = https://hgdownload.soe.ucsc.edu/gbdb/hg38/hg38.2bit
+twoBit_manatee = ../data/manatee/manatee.2bit
+
 
 all: build
 	hubCheck ${hubUrl}
@@ -21,7 +23,7 @@ clean_%:
 # recurisve  genome=
 ##
 juju_output_dir = ../runs/${genome}/results
-chromAlias = ${chromAlias_${genome}}
+twoBit = ${twoBit_${genome}}
 
 bigBeds = ${genome}/primers.bb ${genome}/targets.bb ${genome}/genome-uniqueness.bb ${genome}/transcriptome-uniqueness.bb
 beds = $(foreach b,$(basename ${bigBeds}),${b}.bed)
@@ -41,28 +43,28 @@ ${genome}/primers.bed: ${juju_output_dir}/*/*.primers.bed
 	${cat_beds}
 
 ${genome}/primers.bb: ${genome}/primers.bed
-	bedToBigBed -tab -type=bed12+ -as=${primers_juju_dir}/etc/bigPrimerBed.as -sizesIsBb -extraIndex=name $< ${chromAlias} $@.tmp
+	bedToBigBed -tab -type=bed12+ -as=${primers_juju_dir}/etc/bigPrimerBed.as -sizesIs2Bit -extraIndex=name $< ${twoBit} $@.tmp
 	mv $@.tmp $@
 
 ${genome}/targets.bed: ${juju_output_dir}/*/*.target.bed
 	${cat_beds}
 
 ${genome}/targets.bb: ${genome}/targets.bed
-	bedToBigBed -tab -type=bed12 -sizesIsBb -extraIndex=name $< ${chromAlias} $@.tmp
+	bedToBigBed -tab -type=bed12 -sizesIs2Bit -extraIndex=name $< ${twoBit} $@.tmp
 	mv $@.tmp $@
 
 ${genome}/genome-uniqueness.bed: ${juju_output_dir}/*/*.genome-uniqueness.bed
 	${cat_beds}
 
 ${genome}/genome-uniqueness.bb: ${genome}/genome-uniqueness.bed
-	bedToBigBed -tab -type=bed12 -sizesIsBb -extraIndex=name $< ${chromAlias} $@.tmp
+	bedToBigBed -tab -type=bed12 -sizesIs2Bit -extraIndex=name $< ${twoBit} $@.tmp
 	mv $@.tmp $@
 
 ${genome}/transcriptome-uniqueness.bed: ${juju_output_dir}/*/*.transcriptome-uniqueness.bed
 	${cat_beds}
 
 ${genome}/transcriptome-uniqueness.bb: ${genome}/transcriptome-uniqueness.bed
-	bedToBigBed -tab -type=bed12 -sizesIsBb -extraIndex=name $< ${chromAlias} $@.tmp
+	bedToBigBed -tab -type=bed12 -sizesIs2Bit -extraIndex=name $< ${twoBit} $@.tmp
 	mv $@.tmp $@
 
 ${juju_designs_tsv}: ${juju_output_dir}/*/*.designs.tsv
