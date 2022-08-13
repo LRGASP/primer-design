@@ -1,0 +1,3 @@
+target_id	trans_track	trans_id		region_5p	region_3p	gene_name	gene_id	trans_cat	trans_structural_cat	notes	trans_notes	Extra
+IL7_long	manatee_consolidated	NNC-298416		contig_18545_pilon:301,891-301,970	contig_18545_pilon:308,461-309,400	IL7			ONT		detect long exon vs two short exons 	
+IL7_short	manatee_consolidated	ISM-314146		contig_18545_pilon:303,262-303,353	contig_18545_pilon:308,461-309,400	IL7			ONT/PB		shorter isoform with longer exon on the 5' end same 3' primer	
