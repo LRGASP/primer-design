@@ -1,7 +1,13 @@
-target_id	trans_track	trans_id		region_5p	region_3p	gene_name	gene_id	trans_cat	trans_structural_cat	notes	trans_notes	Extra
-PTX3	manatee_consolidated	NIC-121112		"contig_6343_pilon:289,652-289,933"	"contig_6343_pilon:283,353-284,686"	PTX3			ONT/PB		both paltforms predic the same splice junction	
-IL7+1	manatee_consolidated	NNC-298416		"contig_18545_pilon:301,891-301,970"	"contig_18545_pilon:308,458-309,400"	IL7			ONT		detect long exon vs two short exons 	
-IL7_short	manatee_consolidated	ISM-4141146		"contig_18545_pilon:303,262-303,353"	"contig_18545_pilon:308,458-309,400"	IL7			ONT/PB		shorter isoform with longer exon on the 5' end same 3' primer	
-TAP+1	manatee_consolidated	NNC-303935		"contig_7963_pilon:248,554-248,704"	"contig_7963_pilon:245,910-246,078"	TAP			ONT		detect longer 3' end exon and extra exon	"If primers are too separeated to amplify, there is another exon closer to the 5' en shared by all isoforms "
-TAP+2	manatee_consolidated	NNC-145259		"contig_7963_pilon:248,554-248,704"	"contig_7963_pilon:246,326-246,450"	TAP			ONT		Shorter but with 2 exons 	"If primers are too separeated to amplify, there is another exon closer to the 5' en shared by all isoforms "
-TNFAIP3+1	manatee_consolidated	NNC-302078		"contig_6299_pilon:965,194-965,315"	"contig_6299_pilon:960,631-960,752"	TNFAIP3			ONT		Detect isoforms with +1 exon 5' and another isofom that laks that exon and has an extra in the middle 	
+target_id	trans_track	trans_id		region_5p	region_3p	gene_name	gene_id	trans_cat	trans_structural_cat	notes	trans_notes	Extra	
+PTX3	manatee_consolidated	NIC-121112		"contig_6343_pilon:289,652-289,933"	"contig_6343_pilon:283,353-284,686"	PTX3			ONT/PB		both paltforms predic the same splice junction		
+IL7_long	manatee_consolidated	NNC-298416		"contig_18545_pilon:301,891-301,970"	"contig_18545_pilon:305,310-305,351"	IL7			ONT		detect long exon vs two short exons 		
+IL7_short	manatee_consolidated	ISM-314146		"contig_18545_pilon:303,262-303,353"	"contig_18545_pilon:308,461-309,400"	IL7			ONT/PB		shorter isoform with longer exon on the 5' end same 3' primer		
+TAP+1	manatee_consolidated	NNC-303935		"contig_7963_pilon:248,554-248,704"	"contig_7963_pilon:245,910-246,078"	TAP			ONT		detect longer 3' end exon and extra exon	"If primers are too separeated to amplify, there is another exon closer to the 5' en shared by all isoforms "	
+TAP+2	manatee_consolidated	NNC-145259		"contig_7963_pilon:248,554-248,704"	"contig_7963_pilon:246,326-246,450"	TAP			ONT		Shorter but with 2 exons 	"If primers are too separeated to amplify, there is another exon closer to the 5' en shared by all isoforms "	
+TNFAIP3+1	manatee_consolidated	NNC-302078		"contig_6299_pilon:965,194-965,315"	"contig_6299_pilon:960,631-960,752"	TNFAIP3			ONT		Detect isoforms with +1 exon 5' and another isofom that laks that exon and has an extra in the middle 		
+SPP1_full	manatee_consolidated	NNC-123200		"contig_10129_pilon:184,890-185,014"	"contig_10129_pilon:179,194-179,238"	SPP1						CPM 1.5	
+SPP1_beg	manatee_consolidated	NNC-123200		"contig_10129_pilon:184,890-185,014"	"contig_10129_pilon:182,586-182,640"	SPP1						CPM 1.5	
+SPP1_end	manatee_consolidated	NNC-123200		"contig_10129_pilon:182,586-182,640"	"contig_10129_pilon:179,194-179,238"	SPP1						CPM 1.5	
+GZMK_full	manatee_consolidated	FSM-11716		"contig_12137_pilon:374,858-375,216"	"contig_12137_pilon:358,497-358,590"	GZMK						CPM 11.9	
+GZMK_beg	manatee_consolidated	FSM-11716		"contig_12137_pilon:374,858-375,216"	"contig_12137_pilon:371,727-371,848"	GZMK						CPM 11.9	
+GZMK_end	manatee_consolidated	FSM-11716		"contig_12137_pilon:371,727-371,848"	"contig_12137_pilon:358,497-358,590"	GZMK						CPM 11.9	
