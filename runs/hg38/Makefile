@@ -8,11 +8,13 @@ debug = --debug
 
 done_flag = results/done
 
+specs = specs/human_target_primers.2022-08-24.tsv
+
 all: ${done_flag}
 
 ${done_flag}:
 	@mkdir -p $(dir $@)
-	${primers_juju} ${debug} --conf=specs/config.py design ${hg38_hub_url_args} specs/LRGASP_WTC11_Target_set1.tsv $(dir $@)
+	${primers_juju} ${debug} --conf=specs/config.py design ${hg38_hub_url_args} ${specs} $(dir $@)
 	touch $@
 
 clean:

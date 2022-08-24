@@ -9,26 +9,15 @@
 5. save as xslx
 6. upload
    scp juju_designs.hg38.xlsx $hgwdev:public_html/lrgasp/juju-hub/hg38/
-   
+
+* human:
+https://docs.google.com/spreadsheets/u/0/d/1nW8W_xtfvKE1sSDBNRsZ3K6HWEtxb4jWwZtPh5hNMVA/
    
 * other changes
 ** Amplicon as thick start/end
 ** input and adjusted
 
-* Manatee problems
-*** Error: skipping IL7+1 due to errors in design specification:
-Error: target IL7+1 failed
-caused by: specified primer region contig_18545_pilon:308302-309177 for transcript (manatee_consolidated, NNC-298416) must contain either one exon, or two exons and an intron: [IntronFeature(genome=Coords(name='contig_18545_pilon', start=308302, end=308460, strand='+', size=353458), trans=Coords(name='NNC-298416', start=6264, end=6264, strand='+', size=7336))
- ExonFeature(genome=Coords(name='contig_18545_pilon', start=308460, end=309177, strand='+', size=353458), trans=Coords(name='NNC-298416', start=6264, end=6981, strand='+', size=7336))]
-
-*** Error: skipping IL7_long due to errors in design specification:
-Error: target IL7_long failed
-caused by: specified primer region contig_18545_pilon:246931-247441 does not overlap transcript (manatee_consolidated, NNC-252608)
-
-*** Error: skipping PTX3 due to errors in design specification:
-Error: target PTX3 failed
-caused by: specified primer region contig_6343_pilon:283359-284708 for transcript (manatee_consolidated, NIC-121112) must contain either one exon, or two exons and an intron: [ExonFeature(genome=Coords(name='contig_6343_pilon', start=283359, end=284694, strand='+', size=433550), trans=Coords(name='NIC-121112', start=30, end=1365, strand='-', size=1670))
- IntronFeature(genome=Coords(name='contig_6343_pilon', start=284694, end=284708, strand='+', size=433550), trans=Coords(name='NIC-121112', start=1365, end=1365, strand='-', size=1670))]
-
 * order list
 ../../bin/juju-to-order juju_designs.hg38.tsv juju_designs.hg38.order.tsv
+
+../../bin/juju-to-order juju_designs.manatee.tsv juju_designs.manatee.order.tsv
