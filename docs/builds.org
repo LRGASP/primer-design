@@ -1,0 +1,43 @@
+* manatee
+** 2022-08-25 manatee_target_primers.2022-08-24-II.tsv
+
+*** Error: skipping IL1B+7 due to errors in design specification:
+Error: target IL1B+7 failed
+caused by: specified primer region, after adjusted for exon bounds contig_14815_pilon:23250-23316 does not overlap transcript (manatee_consolidated, NIC-118574)
+
+contig_14815_pilon:16,320-16,462 contig_14815_pilon:23,251-23,316
+contig_14815_pilon:16,320-23,316
+
+# bad:
+IL1B+7	manatee_consolidated	NIC-118574
+
+caused by: specified primer region, after adjusted for exon bounds contig_14815_pilon:23250-23316 for transcript (manatee_consolidated, FSM-158286) must contain either one exon, or two exons and an intron: [IntronFeature(genome=Coords(name='contig_14815_pilon', start=23250, end=23252, strand='+', size=120431), trans=Coords(name='FSM-158286', start=2246, end=2246, strand='+', size=2281))
+ ExonFeature(genome=Coords(name='contig_14815_pilon', start=23252, end=23287, strand='+', size=120431), trans=Coords(name='FSM-158286', start=2246, end=2281, strand='+', size=2281))]
+
+drop FSM-158286
+
+caused by: specified primer region, after adjusted for exon bounds contig_14815_pilon:23250-23316 for transcript (manatee_consolidated, FSM-158286) must contain either one exon, or two exons and an intron: [IntronFeature(genome=Coords(name='contig_14815_pilon', start=23250, end=23252, strand='+', size=120431), trans=Coords(name='FSM-158286', start=2246, end=2246, strand='+', size=2281))
+ ExonFeature(genome=Coords(name='contig_14815_pilon', start=23252, end=23287, strand='+', size=120431), trans=Coords(name='FSM-158286', start=2246, end=2281, strand='+', size=2281))]
+
+FSM-158286
+ 
+*** Error: target ILB+3 failed
+caused by: specified primer region, after adjusted for exon bounds contig_14815_pilon:16737-16881 for transcript (manatee_consolidated, NNC-130497) must contain either one exon, or two exons and an intron: [IntronFeature(genome=Coords(name='contig_14815_pilon', start=16737, end=16881, strand='+', size=120431), trans=Coords(name='NNC-130497', start=279, end=279, strand='-', size=1157))]
+
+contig_14815_pilon:16,738-16,881
+contig_14815_pilon:20,921-21,033
+drop NNC-130497
+
+Error: target ILB+3 failed
+caused by: transcript on different strands: (manatee_consolidated, NNC-297077) vs (manatee_consolidated, ISM-113495)
+drop NNC-297077
+
+** *** Error: skipping ILB+5 due to errors in design specification:
+Error: target ILB+5 failed
+caused by: transcript on different strands: (manatee_consolidated, FSM-158286) vs (manatee_consolidated, NNC-250680)
+
+"contig_14815_pilon:22,063-22,110"	"contig_14815_pilon:16,530-16,659"
+
+drop: FSM-158286
+
+
