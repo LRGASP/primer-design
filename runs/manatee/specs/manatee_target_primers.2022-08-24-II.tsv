@@ -1,4 +1,4 @@
-target_id	trans_track	trans_id		region_5p	region_3p	gene_name	gene_id	trans_cat	trans_structural_cat	notes	trans_notes			
+target_id	trans_track	trans_id		region_5p	region_3p	gene_name	gene_id	trans_cat	trans_structural_cat	notes	trans_notes		
 PTX3	manatee_consolidated	NIC-121112		"contig_6343_pilon:289,652-289,933"	"contig_6343_pilon:283,353-284,686"	PTX3			ONT/PB		both paltforms predic the same splice junction	
 IL7_long_beg	manatee_consolidated	NNC-298416		"contig_18545_pilon:301,891-301,970"	"contig_18545_pilon:304,551-304,734"	IL7			ONT		detect long exon vs two short exons 	CPM 2.4
 IL7+2	manatee_consolidated	NNC-298417		"contig_18545_pilon:301,891-301,970"	"contig_18545_pilon:308,461-309,400"	IL7			ONT/PB		detect long exon vs two short exons 	CPM 2.5
@@ -18,7 +18,7 @@ GZMK_full	manatee_consolidated	FSM-11716		"contig_12137_pilon:374,858-375,216"	"
 GZMK_beg	manatee_consolidated	FSM-11716		"contig_12137_pilon:374,858-375,216"	"contig_12137_pilon:371,727-371,848"	GZMK						CPM 11.9
 GZMK_end	manatee_consolidated	FSM-11716		"contig_12137_pilon:371,727-371,848"	"contig_12137_pilon:358,878-359,020"	GZMK						CPM 11.9
 IL2	manatee_consolidated	FSM-11703		"contig_12072_pilon:31,194-31,275"	"contig_12072_pilon:25,720-26,103"	IL2			ONT		"ONT two pipelines, CPM 0.85"			
-IL1B+8	manatee_consolidated	ÊNNC-297076		"contig_14815_pilon:23,251-23,316"	"contig_14815_pilon:13,549-13,570"	IL1Beta			SPBU_ONT		"ONT 1 pipeline, CPM 49.2"			
+IL1B+8	manatee_consolidated	NNC-297076		"contig_14815_pilon:23,251-23,316"	"contig_14815_pilon:13,549-13,570"	IL1Beta			SPBU_ONT		"ONT 1 pipeline, CPM 49.2"			
 IL1B+7	manatee_consolidated	NNC-130498		"contig_14815_pilon:23,251-23,316"	"contig_14815_pilon:16,320-16,462"	IL1Beta			PB/ONT		both platforms 67 CPM			
 IL1B+7	manatee_consolidated	NIC-118574												
 IL1B+7	manatee_consolidated	NNC-130500												
