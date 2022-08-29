@@ -8,7 +8,7 @@ debug = --debug
 
 done_flag = results/done
 
-specs = specs/human_target_primers.2022-08-24.tsv
+specs = specs/human_target_primers.2022-08-28.tsv
 
 all: ${done_flag}
 
