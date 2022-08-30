@@ -41,3 +41,40 @@ caused by: transcript on different strands: (manatee_consolidated, FSM-158286) v
 drop: FSM-158286
 
 
+* human_target_primers.2022-08-28.tsv
+https://docs.google.com/spreadsheets/d/1nW8W_xtfvKE1sSDBNRsZ3K6HWEtxb4jWwZtPh5hNMVA/edit#gid=0
+http://www.genome.ucsc.edu/s/gsheynkman/hg38_lrgasp_wtc11_batch2
+** changes second NEK2+1 -> NEK2+2
+
+** Error: skipping ALG6+1 due to errors in design specification:
+Error: target ALG6+1 failed
+caused by: specified primer region, after adjusted for exon bounds chr1:63396533-63406384 for transcript (WTC11_consolidated, NNC_39352) must contain either one exon, or two exons and an intron: [
+ ExonFeature(genome=Coords(name='chr1', start=63396533, end=63396597, strand='+', size=248956422), trans=Coords(name='NNC_39352', start=367, end=431, strand='+', size=1978))
+ IntronFeature(genome=Coords(name='chr1', start=63396597, end=63402253, strand='+', size=248956422), trans=Coords(name='NNC_39352', start=431, end=431, strand='+', size=1978))
+ ExonFeature(genome=Coords(name='chr1', start=63402253, end=63402343, strand='+', size=248956422), trans=Coords(name='NNC_39352', start=431, end=521, strand='+', size=1978))
+ IntronFeature(genome=Coords(name='chr1', start=63402343, end=63404452, strand='+', size=248956422), trans=Coords(name='NNC_39352', start=521, end=521, strand='+', size=1978))
+ ExonFeature(genome=Coords(name='chr1', start=63404452, end=63404541, strand='+', size=248956422), trans=Coords(name='NNC_39352', start=521, end=610, strand='+', size=1978))
+ IntronFeature(genome=Coords(name='chr1', start=63404541, end=63406316, strand='+', size=248956422), trans=Coords(name='NNC_39352', start=610, end=610, strand='+', size=1978))
+ ExonFeature(genome=Coords(name='chr1', start=63406316, end=63406384, strand='+', size=248956422), trans=Coords(name='NNC_39352', start=610, end=678, strand='+', size=1978))]
+
+ 
+
+ 1	34	WTC11_consolidated	chr1:63396534-63406384	chr1:63411575-63414452	NNC_39352	ALG6	ALG6+1	NIC/NNC-ONT-specific	batch2			
+
+ chr1:63396534-63406384 crosses more than two exons
+
+ *** Error: skipping ASNS+1 due to errors in design specification:
+Error: target ASNS+1 failed
+caused by: specified primer region, after adjusted for exon bounds chr7:97864373-97872380 for transcript (WTC11_consolidated, FSM_33192) must contain either one exon, or two exons and an intron: [
+ ExonFeature(genome=Coords(name='chr7', start=97864373, end=97864496, strand='+', size=159345973), trans=Coords(name='FSM_33192', start=1435, end=1558, strand='-', size=1848))
+ IntronFeature(genome=Coords(name='chr7', start=97864496, end=97868907, strand='+', size=159345973), trans=Coords(name='FSM_33192', start=1558, end=1558, strand='-', size=1848))
+ ExonFeature(genome=Coords(name='chr7', start=97868907, end=97869105, strand='+', size=159345973), trans=Coords(name='FSM_33192', start=1558, end=1756, strand='-', size=1848))
+ IntronFeature(genome=Coords(name='chr7', start=97869105, end=97872350, strand='+', size=159345973), trans=Coords(name='FSM_33192', start=1756, end=1756, strand='-', size=1848))
+ ExonFeature(genome=Coords(name='chr7', start=97872350, end=97872380, strand='+', size=159345973), trans=Coords(name='FSM_33192', start=1756, end=1786, strand='-', size=1848))]
+
+WTC11_consolidatede	chr7:97864374-97872380	chr7:97855418-97858957	FSM_33192	ASNS	ASNS+1	FSM-ONT-specific	batch2	Design primer nearly centered to junction highlighted in region_5p		
+
+chr7:97864374-97872380 FSM_33192
+ 
+* >>> Designing C19orf81+1
+Error: transcript (WTC11_consolidated, NNC_64139) region chr19:50658490-50658506 exon length 16 is less than PRIMER_MIN_SIZE 18
