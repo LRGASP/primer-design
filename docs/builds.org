@@ -19,4 +19,14 @@ drop: FSM-158286
 https://docs.google.com/spreadsheets/d/1nW8W_xtfvKE1sSDBNRsZ3K6HWEtxb4jWwZtPh5hNMVA/edit#gid=0
 http://www.genome.ucsc.edu/s/gsheynkman/hg38_lrgasp_wtc11_batch2
 ** changed second NEK2+1 -> NEK2+2
+** multiple exons:
+ALG6+1
+ASNS+1
+CENPK+1
+ENG+1
+TMX2+1
+XPO7+1
+ZSCAN21+1
 
+** region too short
+C19orf81+1
