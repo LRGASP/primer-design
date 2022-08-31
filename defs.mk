@@ -23,3 +23,4 @@ PYTHON = ${venv_act} && python3
 PIP = ${PYTHON} -m pip
 
 primers_juju = ${venv_act} && ${primers_juju_dir}/bin/primers-juju
+juju_to_order = ${ROOT}/bin/juju-to-order

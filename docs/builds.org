@@ -35,6 +35,9 @@ C19orf81+1
 ** duplicate targets
 NEK2+1
 ** multiple exons:
-
+ALG6+1
+TMX2+1
+XPO7+1
+ZSCAN21+1
 ** region too short
 C19orf81+1
