@@ -1,0 +1,215 @@
+Plate	Well	trans_track	region_5p	region_3p	trans_id	gene_name	target_id	notes	status	trans_notes	extra_notes	pcr_status_jerryd	fran_est_tpm	Highlighted regions can be found here:
+1	1	WTC11_consolidated	chr4:2042042-2042366	chr4:2043863-2043922	FSM_48428	C4orf48	C4orf48+1	FSM-PB-specific	pilot					http://www.genome.ucsc.edu/s/gsheynkman/hg38_lrgasp_wtc11_primer_regions
+1	2	WTC11_consolidated	chr17:28404662-28405317	chr17:28398703-28399641	FSM_44519	SLC46A1	SLC46A1+1	FSM-PB-specific	pilot					
+1	3	WTC11_consolidated	chr19:35944582-35944982	chr19:35936839-35937541	FSM_45884	LRFN3	LRFN3+1	FSM-PB-specific	pilot	FSM present in PB but not found in ONT				
+1	4	WTC11_consolidated	chr19:55648062-55648245	chr19:55652456-55652698	FSM_19966	CCDC106	CCDC106+1	FSM-PB-specific	pilot					
+1	5	WTC11_consolidated	chr19:47228328-47231039	chr19:47221198-47221914	FSM_45580	BBC3	BBC3+1	FSM-PB-specific	pilot	Design primer specific to junction highlighted in region_5p				
+1	6	WTC11_consolidated	chr19:58517555-58519807	chr19:58513745-58514287	FSM_45682	ZBTB45	ZBTB45+1	FSM-PB-specific	pilot	Design primer specific to junction highlighted in region_5p				
+1	7	WTC11_consolidated	chr22:24423870-24433245	chr22:24440659-24441347	NIC_60087	ADORA2A	ADORA2A+1	NIC/NNC-PB-specific	pilot	Design primer specific to junction highlighted in region_5p	220828-previously mis-labeled as PB-ONT-similar			
+1	8	WTC11_consolidated	chr16:695026-695252	chr16:694306-694413	NIC_57258	FBXL16	FBXL16+1	NIC/NNC-PB-specific	pilot	Design primer specific to junction highlighted in region_5p	220828-previously mis-labeled as PB-ONT-similar			
+1	9	WTC11_consolidated	chr1:15409974-15410252	chr1:15425944-15428760	NIC_54729	EFHD2	EFHD2+1	NIC/NNC-PB-specific	pilot	Design primer specific to junction highlighted in region_3p	220828-previously mis-labeled as PB-ONT-similar			
+1	10	WTC11_consolidated	chr1:24502993-24514454	chr1:24533106-24533240	NIC_54933	RCAN3	RCAN3+1	NIC/NNC-PB-specific	batch2	Design primer nearly centered to junction highlighted in region_5p				
+1	11	WTC11_consolidated	chr5:80059759-80065450	chr5:80071035-80071158	NIC_61311	THBS4	THBS4+1	NIC/NNC-PB-specific	batch2	Design primer nearly centered to junction highlighted in region_5p				
+1	12	WTC11_consolidated	chr12:116719808-116737946	chr12:116716067-116717711	NIC_56020	SPRING1	SPRING1+1	NIC/NNC-PB-specific	batch2	Design primer nearly centered to junction highlighted in region_5p				
+1	13	WTC11_consolidated	chr14:49779739-49779785	chr14:49782532-49785710	NNC_63666	KLHDC2	KLHDC2+1	NIC/NNC-PB-specific	batch2	Design primer nearly centered to junction highlighted in region_3p				
+1	14	WTC11_consolidated	chr9:127825480-127825600	chr9:127819944-127820044	NNC_65365	ENG	ENG+1	NIC/NNC-PB-specific	batch2		Issue with multi-exon selection - this is updated version (220831)			
+1	15	WTC11_consolidated	chr19:926060-926175	chr19:966617-966816	NNC_64158	ARID3A	ARID3A+1	NIC/NNC-PB-specific	batch2					
+1	16	WTC11_consolidated	chr22:20139747-20140676	chr22:20140917-20141288	NNC_64531	ZDHHC8	ZDHHC8+1	NIC/NNC-PB-specific	batch2					
+1	17	WTC11_consolidated	chr9:136051831-136052045	chr9:136049763-136050160	NNC_82885	NACC2	NACC2+1	NIC/NNC-PB-specific	batch2					
+1	18	WTC11_consolidated	chr19:50658491-50658506	chr19:50659155-50659260	NNC_64139	C19orf81	C19orf81+1	NIC/NNC-PB-specific	batch2		Issue with region too short - selected longer region (220831)			
+1	19	WTC11_consolidated	chr3:49164170-49166312	chr3:49162868-49163232	FSM_25821	CCDC71	CCDC71+1	FSM-ONT-specific	pilot					
+1	20	WTC11_consolidated	chr11:66480435-66482239	chr11:66491267-66491612	FSM_374933	DPP3	DPP3+1	FSM-ONT-specific	pilot	Design primer specific to junction highlighted in region_5p				
+1	21	WTC11_consolidated	chr15:52180132-52181192	chr15:52205138-52205695	FSM_12039	CERNA1	CERNA1+1	FSM-ONT-specific	pilot					
+1	22	WTC11_consolidated	chr3:23807316-23887619	chr3:23890525-23890983	FSM_26800	UBE2E1	UBE2E1+1	FSM-ONT-specific	batch2	Design primer nearly centered to junction highlighted in region_5p				
+1	23	WTC11_consolidated	chr14:90259164-90263389	chr14:90268250-90269503	FSM_11094	PSMC1	PSMC1+1	FSM-ONT-specific	batch2	Design primer nearly centered to junction highlighted in region_5p				
+1	24	WTC11_consolidated	chr7:97869003-97872380	chr7:97858297-97858407	FSM_33192	ASNS	ASNS+1	FSM-ONT-specific	batch2	Design primer nearly centered to junction highlighted in region_5p	Issue with multi-exon selection - this is updated version (220831)			
+1	25	WTC11_consolidated	chr1:161042599-161042663	chr1:161040350-161040563	NIC_387124	USF1	USF1+1	NIC/NNC-ONT-specific	batch2					
+1	26	WTC11_consolidated	chr11:65040955-65041082	chr11:65044248-65044624	NIC_39196	SAC3D1	SAC3D1+1	NIC/NNC-ONT-specific	batch2					
+1	27	WTC11_consolidated	chr7:23343876-23470296	chr7:23311889-23312513	NIC_405674	IGF2BP3	IGF2BP3+1	NIC/NNC-ONT-specific	batch2	Design primer nearly centered to junction highlighted in region_5p				
+1	28	WTC11_consolidated	chr19:49496443-49497555	chr19:49499528-49499629	NIC_68628	RPS11	RPS11+1	NIC/NNC-ONT-specific	batch2	Design primer nearly centered to junction highlighted in region_5p				
+1	29	WTC11_consolidated	chr2:218217185-218225938	chr2:218238453-218240799	NIC_485306	ARPC2	ARPC2+1	NIC/NNC-ONT-specific	batch2	Design primer nearly centered to junction highlighted in region_5p				
+1	30	WTC11_consolidated	chr1:161314398-161328439	chr1:161356687-161356822	NIC_78892	SDHC	SDHC+1	NIC/NNC-ONT-specific	batch2	Design primer nearly centered to junction highlighted in region_5p				
+1	31	WTC11_consolidated	chr3:112345013-112347421	chr3:112361598-112362041	NNC_80928	CD200	CD200+1	NIC/NNC-ONT-specific	batch2	Design primer specific to junction highlighted in region_5p				
+1	32	WTC11_consolidated	chr15:44715416-44715581	chr15:44717650-44717855	NNC_381534	B2M	B2M+1	NIC/NNC-ONT-specific	batch2					
+1	33	WTC11_consolidated	chr7:100057187-100057745	chr7:100063876-100064052	NNC_384123	ZSCAN21	ZSCAN21+1	NIC/NNC-ONT-specific	batch2	Design primer nearly centered to junction highlighted in region_5p				
+1	34	WTC11_consolidated	chr1:63396534-63406384	chr1:63411845-63412081	NNC_39352	ALG6	ALG6+1	NIC/NNC-ONT-specific	batch2		Issue with multi-exon selection - this is updated version (220831)			
+1	35	WTC11_consolidated	chr3:150603424-150614591	chr3:150627672-150628640	NNC_383269	SELENOT	SELENOT+1	NIC/NNC-ONT-specific	batch2	Include as much of the region_5p on the second exon (10 nt)				
+1	36	WTC11_consolidated	chr1:28506235-28506311	chr1:28508848-28509017	NNC_79612	SNHG3	SNHG3+1	NIC/NNC-ONT-specific	batch2					
+1	37	WTC11_consolidated	chr17:997158-997333	chr17:999540-1001073	FSM_16709	TIMM22	TIMM22+1	FSM-PB/ONT-similar	pilot	Design primer specific to junction highlighted in region_3p				
+1	38	WTC11_consolidated	chr1:211673509-211673695	chr1:211663476-211667185	FSM_913	NEK2	NEK2+1	FSM-PB/ONT-similar	pilot	Design primer specific to junction highlighted in region_3p				
+1	39	WTC11_consolidated	chr8:102652240-102655624	chr8:102650103-102650375	FSM_34168	KLF10	KLF10+1	FSM-PB/ONT-similar	pilot					
+1	40	WTC11_consolidated	chr1:109090781-109090871	chr1:109094464-109094602	FSM_1823	TMEM167B	TMEM167B+1	FSM-PB/ONT-similar	batch2					
+1	41	WTC11_consolidated	chr4:2240803-2242199	chr4:2231507-2231918	FSM_27637	HAUS3	HAUS3+1	FSM-PB/ONT-similar	batch2	Design primer nearly centered to junction highlighted in region_5p				
+1	42	WTC11_consolidated	chr4:52862405-52862621	chr4:52865576-52865676	FSM_28408	RASL11B	RASL11B+1	FSM-PB/ONT-similar	batch2					
+1	43	WTC11_consolidated	chr5:65552472-65562823	chr5:65529128-65529202	NIC_72714	CENPK	CENPK+1	NIC/NNC-PB/ONT-similar	batch2	Design primer nearly centered to junction highlighted in region_5p	Issue with multi-exon selection - this is updated version (220831)			
+1	44	WTC11_consolidated	chr2:73926961-73957206	chr2:73958730-73958903	NIC_59538	DGUOK	DGUOK+1	NIC/NNC-PB/ONT-similar	batch2	Design primer nearly centered to junction highlighted in region_5p				
+1	45	WTC11_consolidated	chr19:11539915-11540006	chr19:11549562-11550084	NIC_58623	CNN1	CNN1+1	NIC/NNC-PB/ONT-similar	batch2					
+1	46	WTC11_consolidated	chr8:21919662-22002171	chr8:22005140-22006385	NNC_69340	XPO7	XPO7+1	NIC/NNC-PB/ONT-similar	batch2	Design primer nearly centered to junction highlighted in region_5p	Request Silvia manually design (220831)			
+1	47	WTC11_consolidated	chr7:55951916-55951943	chr7:55954940-55955083	NNC_75388	MRPS17	MRPS17+1	NIC/NNC-PB/ONT-similar	batch2					
+1	48	WTC11_consolidated	chr1:53946566-53946686	chr1:53958173-53960426	NNC_63198	LRRC42	LRRC42+1	NIC/NNC-PB/ONT-similar	batch2					
+1	49	WTC11_consolidated	chr5:16465160-16465635	chr5:16451566-16451768	FSM_28983	ZNF622	ZNF622+1	FSM-pipeline-consistent	batch1					
+1	50	WTC11_consolidated	chr12:55927736-55927895	chr12:55901584-55902023	FSM_7648	PYM1	PYM1+1	FSM-pipeline-consistent	batch1					
+1	51	WTC11_consolidated	chr12:89351849-89352353	chr12:89348825-89349325	FSM_7937	DUSP6	DUSP6+1	FSM-pipeline-consistent	batch1					
+1	52	WTC11_consolidated	chr1:211673503-211673699	chr1:211663302-211663611	FSM_913	NEK2	NEK2+1	FSM-pipeline-consistent	batch1					
+1	53	WTC11_consolidated	chr16:56451104-56451305	chr16:56431487-56431918	FSM_12847	NUDT21	NUDT21+1	FSM-pipeline-consistent	batch1					
+1	54	WTC11_consolidated	chr19:10701465-10701684	chr19:10713133-10713266	FSM_18744	QTRT1	QTRT1+1	FSM-pipeline-consistent	batch1					
+1	55	WTC11_consolidated	chr2:47172426-47176508	chr2:47160222-47160784	FSM_21072	CALM2	CALM2+1	FSM-pipeline-consistent	batch1	Design primer specific to junction highlighted in region_5p				
+1	56	WTC11_consolidated	chr3:51671246-51674283	chr3:51703732-51704143	FSM_27088	TEX264	TEX264+1	FSM-pipeline-consistent	batch1	Design region_5p primer so a few nucleotides overlap the second exon.				
+1	57	WTC11_consolidated	chr7:16645518-16645644	chr7:16600492-16600893	FSM_32744	ANKMY2	ANKMY2+1	FSM-pipeline-consistent	batch2					
+1	58	WTC11_consolidated	chr1:159925451-159925479	chr1:159918699-159918831	FSM_607	TAGLN2	TAGLN2+1	FSM-pipeline-consistent	batch2					
+1	59	WTC11_consolidated	chr10:95290825-95290993	chr10:95238584-95238671	FSM_4157	PDLIM1	PDLIM1+1	FSM-pipeline-consistent	batch2					
+1	60	WTC11_consolidated						FSM-pipeline-consistent						
+1	61	WTC11_consolidated						NIC-pipeline-consistent						
+1	62	WTC11_consolidated						NIC-pipeline-consistent						
+1	63	WTC11_consolidated						NIC-pipeline-consistent						
+1	64	WTC11_consolidated						NIC-pipeline-consistent						
+1	65	WTC11_consolidated						NIC-pipeline-consistent						
+1	66	WTC11_consolidated						NIC-pipeline-consistent						
+1	67	WTC11_consolidated						NIC-pipeline-consistent						
+1	68	WTC11_consolidated						NIC-pipeline-consistent						
+1	69	WTC11_consolidated						NIC-pipeline-consistent						
+1	70	WTC11_consolidated						NIC-pipeline-consistent						
+1	71	WTC11_consolidated						NIC-pipeline-consistent						
+1	72	WTC11_consolidated						NIC-pipeline-consistent						
+1	73	WTC11_consolidated						NNC-pipeline-consistent						
+1	74	WTC11_consolidated						NNC-pipeline-consistent						
+1	75	WTC11_consolidated						NNC-pipeline-consistent						
+1	76	WTC11_consolidated						NNC-pipeline-consistent						
+1	77	WTC11_consolidated						NNC-pipeline-consistent						
+1	78	WTC11_consolidated						NNC-pipeline-consistent						
+1	79	WTC11_consolidated						NNC-pipeline-consistent						
+1	80	WTC11_consolidated						NNC-pipeline-consistent						
+1	81	WTC11_consolidated						NNC-pipeline-consistent						
+1	82	WTC11_consolidated						NNC-pipeline-consistent						
+1	83	WTC11_consolidated						NNC-pipeline-consistent						
+1	84	WTC11_consolidated						NNC-pipeline-consistent						
+1	85	WTC11_consolidated						Positive-control						
+1	86	WTC11_consolidated						Positive-control						
+1	87	WTC11_consolidated						Positive-control						
+1	88	WTC11_consolidated						Positive-control						
+1	89	WTC11_consolidated						Positive-control						
+1	90	WTC11_consolidated						Positive-control						
+1	91	WTC11_consolidated						NIC/NNC-pipeline-rare						
+1	92	WTC11_consolidated						NIC/NNC-pipeline-rare						
+1	93	WTC11_consolidated						NIC/NNC-pipeline-rare						
+1	94	WTC11_consolidated						NIC/NNC-pipeline-rare						
+1	95	WTC11_consolidated						NIC/NNC-pipeline-rare						
+1	96	WTC11_consolidated						NIC/NNC-pipeline-rare						
+2	1	WTC11_consolidated						NIC/NNC-pipeline-rare						
+2	2	WTC11_consolidated						NIC/NNC-pipeline-rare						
+2	3	WTC11_consolidated						NIC/NNC-pipeline-rare						
+2	4	WTC11_consolidated						NIC/NNC-pipeline-rare						
+2	5	WTC11_consolidated						NIC/NNC-pipeline-rare						
+2	6	WTC11_consolidated						NIC/NNC-pipeline-rare						
+2	7	WTC11_consolidated						GENCODE-novel						
+2	8	WTC11_consolidated						GENCODE-novel						
+2	9	WTC11_consolidated						GENCODE-novel						
+2	10	WTC11_consolidated						GENCODE-novel						
+2	11	WTC11_consolidated						GENCODE-novel						
+2	12	WTC11_consolidated						GENCODE-novel						
+2	13	WTC11_consolidated						GENCODE-novel						
+2	14	WTC11_consolidated						GENCODE-novel						
+2	15	WTC11_consolidated						GENCODE-novel						
+2	16	WTC11_consolidated						GENCODE-novel						
+2	17	WTC11_consolidated						GENCODE-novel						
+2	18	WTC11_consolidated						GENCODE-novel						
+2	19	WTC11_consolidated						GENCODE-suspicious						
+2	20	WTC11_consolidated						GENCODE-suspicious						
+2	21	WTC11_consolidated						GENCODE-suspicious						
+2	22	WTC11_consolidated						GENCODE-suspicious						
+2	23	WTC11_consolidated						GENCODE-suspicious						
+2	24	WTC11_consolidated						GENCODE-suspicious						
+2	25	WTC11_consolidated						GENCODE-suspicious						
+2	26	WTC11_consolidated						GENCODE-suspicious						
+2	27	WTC11_consolidated						GENCODE-suspicious						
+2	28	WTC11_consolidated						GENCODE-suspicious						
+2	29	WTC11_consolidated						GENCODE-suspicious						
+2	30	WTC11_consolidated						GENCODE-suspicious						
+2	31	WTC11_consolidated						GENCODE-known						
+2	32	WTC11_consolidated						GENCODE-known						
+2	33	WTC11_consolidated						GENCODE-known						
+2	34	WTC11_consolidated						GENCODE-known						
+2	35	WTC11_consolidated						GENCODE-known						
+2	36	WTC11_consolidated						GENCODE-known						
+2	37	WTC11_consolidated						GENCODE-known						
+2	38	WTC11_consolidated						GENCODE-known						
+2	39	WTC11_consolidated						GENCODE-known						
+2	40	WTC11_consolidated						GENCODE-known						
+2	41	WTC11_consolidated						GENCODE-known						
+2	42	WTC11_consolidated						GENCODE-known						
+2	43	WTC11_consolidated						GENCODE-novel-mouse-ortho						
+2	44	WTC11_consolidated						GENCODE-novel-mouse-ortho						
+2	45	WTC11_consolidated						GENCODE-novel-mouse-ortho						
+2	46	WTC11_consolidated						GENCODE-novel-mouse-ortho						
+2	47	WTC11_consolidated						GENCODE-novel-mouse-ortho						
+2	48	WTC11_consolidated						GENCODE-novel-mouse-ortho						
+2	49	WTC11_consolidated						Mouse-FSM-pipeline-consistent						
+2	50	WTC11_consolidated						Mouse-FSM-pipeline-consistent						
+2	51	WTC11_consolidated						Mouse-FSM-pipeline-consistent						
+2	52	WTC11_consolidated						Mouse-FSM-pipeline-consistent						
+2	53	WTC11_consolidated						Mouse-FSM-pipeline-consistent						
+2	54	WTC11_consolidated						Mouse-FSM-pipeline-consistent						
+2	55	<mouse_track>						Mouse-NIC-pipeline-consistent						
+2	56	<mouse_track>						Mouse-NIC-pipeline-consistent						
+2	57	<mouse_track>						Mouse-NIC-pipeline-consistent						
+2	58	<mouse_track>						Mouse-NIC-pipeline-consistent						
+2	59	<mouse_track>						Mouse-NIC-pipeline-consistent						
+2	60	<mouse_track>						Mouse-NIC-pipeline-consistent						
+2	61	<mouse_track>						Mouse-NIC-pipeline-consistent						
+2	62	<mouse_track>						Mouse-NIC-pipeline-consistent						
+2	63	<mouse_track>						Mouse-NIC-pipeline-consistent						
+2	64	<mouse_track>						Mouse-NIC-pipeline-consistent						
+2	65	<mouse_track>						Mouse-NIC-pipeline-consistent						
+2	66	<mouse_track>						Mouse-NIC-pipeline-consistent						
+2	67	<mouse_track>						Mouse-NNC-pipeline-consistent						
+2	68	<mouse_track>						Mouse-NNC-pipeline-consistent						
+2	69	<mouse_track>						Mouse-NNC-pipeline-consistent						
+2	70	<mouse_track>						Mouse-NNC-pipeline-consistent						
+2	71	<mouse_track>						Mouse-NNC-pipeline-consistent						
+2	72	<mouse_track>						Mouse-NNC-pipeline-consistent						
+2	73	<mouse_track>						Mouse-NNC-pipeline-consistent						
+2	74	<mouse_track>						Mouse-NNC-pipeline-consistent						
+2	75	<mouse_track>						Mouse-NNC-pipeline-consistent						
+2	76	<mouse_track>						Mouse-NNC-pipeline-consistent						
+2	77	<mouse_track>						Mouse-NNC-pipeline-consistent						
+2	78	<mouse_track>						Mouse-NNC-pipeline-consistent						
+2	79	<mouse_track>						Mouse-NIC/NNC-pipeline-rare						
+2	80	<mouse_track>						Mouse-NIC/NNC-pipeline-rare						
+2	81	<mouse_track>						Mouse-NIC/NNC-pipeline-rare						
+2	82	<mouse_track>						Mouse-NIC/NNC-pipeline-rare						
+2	83	<mouse_track>						Mouse-NIC/NNC-pipeline-rare						
+2	84	<mouse_track>						Mouse-NIC/NNC-pipeline-rare						
+2	85	<mouse_track>						Mouse-NIC/NNC-pipeline-rare						
+2	86	<mouse_track>						Mouse-NIC/NNC-pipeline-rare						
+2	87	<mouse_track>						Mouse-NIC/NNC-pipeline-rare						
+2	88	<mouse_track>						Mouse-NIC/NNC-pipeline-rare						
+2	89	<mouse_track>						Mouse-NIC/NNC-pipeline-rare						
+2	90	<mouse_track>						Mouse-NIC/NNC-pipeline-rare						
+2	91	<mouse_track>												
+2	92	<mouse_track>												
+2	93	<mouse_track>												
+2	94	<mouse_track>												
+2	95	<mouse_track>												
+2	96	<mouse_track>												
+														
+														
+														
+														
+														
+														
+														
+														
+Extras														
+1	33	WTC11_consolidated	chr19:33064784-33064884	chr19:33012662-33012723	FSM_17757	RHPN2	RHPN2+1	NIC/NNC-ONT-specific	batch2					
+1	34	WTC11_consolidated	chr20:50084199-50113162	chr20:50081267-50082230	FSM_23160	UBE2V1	UBE2V1+1	NIC/NNC-ONT-specific	batch2	Design primer nearly centered to junction highlighted in region_5p				
+1	35	WTC11_consolidated	chr22:38468149-38468309	chr22:38482500-38482575	FSM_24836	KDELR3	KDELR3+1	NIC/NNC-ONT-specific	batch2					
+1	36	WTC11_consolidated	chr11:57737461-57738390	chr11:57740147-57740585	FSM_6503	TMX2	TMX2+1	NIC/NNC-ONT-specific	batch2		Issue with multi-exon selection - but will not update because this is extra (220831)			
+														
+Original submissions														
+1	34	WTC11_consolidated	chr1:63396534-63406384	chr1:63411575-63414452	NNC_39352	ALG6	ALG6+1	NIC/NNC-ONT-specific	batch2		Issue with multi-exon selection - this is oriignal version (220831)			
+1	24	WTC11_consolidated	chr7:97864374-97872380	chr7:97855418-97858957	FSM_33192	ASNS	ASNS+1	FSM-ONT-specific	batch2	Design primer nearly centered to junction highlighted in region_5p	Issue with multi-exon selection - this is oriignal version (220831)			
+1	43	WTC11_consolidated	chr5:65552472-65562823	chr5:65526487-65548709	NIC_72714	CENPK	CENPK+1	NIC/NNC-PB/ONT-similar	batch2	Design primer nearly centered to junction highlighted in region_5p	Issue with multi-exon selection - this is oriignal version (220831)			
+1	14	WTC11_consolidated	chr9:127825480-127825600	chr9:127818734-127824928	NNC_65365	ENG	ENG+1	NIC/NNC-PB-specific	batch2		Issue with multi-exon selection - this is oriignal version (220831)			
+1	46	WTC11_consolidated	chr8:21919662-22002171	chr8:22005140-22006385	NNC_69340	XPO7	XPO7+1	NIC/NNC-PB/ONT-similar	batch2	Design primer nearly centered to junction highlighted in region_5p	Issue with multi-exon selection - this is oriignal version (220831)			
+1	33	WTC11_consolidated	chr7:100057187-100057745	chr7:100063876-100064052	NNC_384123	ZSCAN21	ZSCAN21+1	NIC/NNC-ONT-specific	batch2	Design primer nearly centered to junction highlighted in region_5p	Issue with multi-exon selection - this is oriignal version (220831)			
+1	18	WTC11_consolidated	chr19:50658491-50658506	chr19:50658963-50659037	NNC_64139	C19orf81	C19orf81+1	NIC/NNC-PB-specific	batch2		Region too short - this is original range (220831)			
