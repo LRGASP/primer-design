@@ -1,7 +1,0 @@
-target_id	trans_track	trans_id		region_5p	region_3p	gene_name	gene_id	trans_cat	trans_structural_cat	notes	trans_notes	Extra
-SPP1_full	manatee_consolidated	NNC-123200		"contig_10129_pilon:184,890-185,014"	"contig_10129_pilon:179,194-179,238"	SPP1						CPM 1.5
-SPP1_beg	manatee_consolidated	NNC-123200		"contig_10129_pilon:184,890-185,014"	"contig_10129_pilon:182,586-182,640"	SPP1						CPM 1.5
-SPP1_end	manatee_consolidated	NNC-123200		"contig_10129_pilon:182,586-182,640"	"contig_10129_pilon:179,194-179,238"	SPP1						CPM 1.5
-GZMK_full	manatee_consolidated	FSM-11716		"contig_12137_pilon:374,858-375,216"	"contig_12137_pilon:358,497-358,590"	GZMK						CPM 11.9
-GZMK_beg	manatee_consolidated	FSM-11716		"contig_12137_pilon:374,858-375,216"	"contig_12137_pilon:371,727-371,848"	GZMK						CPM 11.9
-GZMK_end	manatee_consolidated	FSM-11716		"contig_12137_pilon:371,727-371,848"	"contig_12137_pilon:358,497-358,590"	GZMK						CPM 11.9

@@ -4,7 +4,7 @@ include ${ROOT}/defs.mk
 
 manatee_hub_url_args = $(foreach h,${MANATEE_HUB_URLS},--huburl=$h)
 config = specs/config.py
-specs = specs/manatee_target_primers.2022-08-24-II.tsv
+specs = specs/manatee_target_primers.2022-08-31.tsv
 
 #debug = --debug
 
