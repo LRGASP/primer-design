@@ -30,3 +30,11 @@ ZSCAN21+1
 
 ** region too short
 C19orf81+1
+
+* human_target_primers.2022-08-28.tsv
+** duplicate targets
+NEK2+1
+** multiple exons:
+
+** region too short
+C19orf81+1
