@@ -1,3 +1,4 @@
+
 * manatee
 ** 2022-08-25 manatee_target_primers.2022-08-24-II.tsv
 
@@ -41,3 +42,27 @@ XPO7+1
 ZSCAN21+1
 ** region too short
 C19orf81+1
+
+* manatee_target_primers.2022-08-31.tsv
+** Three invalid UTF-8 characters
+** Error: error parsing primary target specification TSV: 'specs/manatee_target_primers.2022-08-31.tsv'
+caused by: error parsing continuation row: IL1B+4	manatee_consolidated	ISM-113494									
+caused by: unknown primer target_id 'IL1B+4
+
+these seems stary, delete for now:
+IL1B+4	manatee_consolidated	ISM-113494									
+IL1B+5	manatee_consolidated	NIC-118574									
+
+** Error: skipping IL1B+6_long due to errors in design specification:
+Error: target IL1B+6_long failed
+caused by: specified primer region, after adjusted for exon bounds contig_14815_pilon:15397-15654 for transcript (manatee_consolidated, NNC-297076) must contain either one exon, or two exons and an intron: [IntronFeature(genome=Coords(name='contig_14815_pilon', start=15397, end=15654, strand='+', size=120431), trans=Coords(name='NNC-297076', start=22, end=22, strand='-', size=1563))]
+
+contig_14815_pilon:23,251-23,316
+contig_14815_pilon:15,398-15,654 in an intron
+
+** Error: skipping IL1B+8 due to errors in design specification:
+Error: target IL1B+8 failed
+caused by: specified primer region, after adjusted for exon bounds contig_14815_pilon:15397-15654 for transcript (manatee_consolidated, NNC-297076) must contain either one exon, or two exons and an intron: [IntronFeature(genome=Coords(name='contig_14815_pilon', start=15397, end=15654, strand='+', size=120431), trans=Coords(name='NNC-297076', start=22, end=22, strand='-', size=1563))]
+
+contig_14815_pilon:23,251-23,316
+contig_14815_pilon:15,398-15,654 in an intron
