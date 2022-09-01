@@ -44,7 +44,7 @@ Plate	Well	trans_track	region_5p	region_3p	trans_id	gene_name	target_id	notes	st
 1	43	WTC11_consolidated	chr5:65552472-65562823	chr5:65529128-65529202	NIC_72714	CENPK	CENPK+1	NIC/NNC-PB/ONT-similar	batch2	Design primer nearly centered to junction highlighted in region_5p	Issue with multi-exon selection - this is updated version (220831)			
 1	44	WTC11_consolidated	chr2:73926961-73957206	chr2:73958730-73958903	NIC_59538	DGUOK	DGUOK+1	NIC/NNC-PB/ONT-similar	batch2	Design primer nearly centered to junction highlighted in region_5p				
 1	45	WTC11_consolidated	chr19:11539915-11540006	chr19:11549562-11550084	NIC_58623	CNN1	CNN1+1	NIC/NNC-PB/ONT-similar	batch2					
-1	46	WTC11_consolidated	chr8:21919662-22002171	chr8:22005140-22006385	NNC_69340	XPO7	XPO7+1	NIC/NNC-PB/ONT-similar	batch2	Design primer nearly centered to junction highlighted in region_5p	Request Silvia manually design (220831)			
+1	46	WTC11_consolidated	chr8:21,919,660-21,999,675	chr8:21,999,659-21,999,675	NNC_69340	XPO7	XPO7+1	NIC/NNC-PB/ONT-similar	batch2	Design primer nearly centered to junction highlighted in region_5p	Request Silvia manually design (220831); update by Silvia 2022-09-01			
 1	47	WTC11_consolidated	chr7:55951916-55951943	chr7:55954940-55955083	NNC_75388	MRPS17	MRPS17+1	NIC/NNC-PB/ONT-similar	batch2					
 1	48	WTC11_consolidated	chr1:53946566-53946686	chr1:53958173-53960426	NNC_63198	LRRC42	LRRC42+1	NIC/NNC-PB/ONT-similar	batch2					
 1	49	WTC11_consolidated	chr5:16465160-16465635	chr5:16451566-16451768	FSM_28983	ZNF622	ZNF622+1	FSM-pipeline-consistent	batch1					
