@@ -43,6 +43,11 @@ ZSCAN21+1
 ** region too short
 C19orf81+1
 
+** NNC_384123	ZSCAN21+1
+chr7:100057187-100057745	chr7:100063876-100064052
+Design primer nearly centered to junction highlighted in region_5p				
+replace left with chr7:100,057,188-100,057,407
+
 * manatee_target_primers.2022-08-31.tsv
 ** Three invalid UTF-8 characters
 ** Error: error parsing primary target specification TSV: 'specs/manatee_target_primers.2022-08-31.tsv'
@@ -66,3 +71,4 @@ caused by: specified primer region, after adjusted for exon bounds contig_14815_
 
 contig_14815_pilon:23,251-23,316
 contig_14815_pilon:15,398-15,654 in an intron
+

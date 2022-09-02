@@ -29,6 +29,7 @@ bigBeds = ${genome}/primers.bb ${genome}/targets.bb ${genome}/genome-uniqueness.
 beds = $(foreach b,$(basename ${bigBeds}),${b}.bed)
 juju_designs_tsv = ${genome}/juju_designs.${genome}.tsv
 juju_order_tsv = ${genome}/juju_designs.${genome}.order.tsv
+juju_order_fa = ${genome}/juju_designs.${genome}.order.fa
 juju_designs_xslt = ${genome}/juju_designs.${genome}.xslt
 annotated_rna_fa = ${genome}/annotated_rna.${genome}.fa
 
@@ -38,7 +39,7 @@ sort -k 1,1 -k2,2n $^ >$@.tmp
 mv -f $@.tmp $@
 endef
 
-genome_build: ${bigBeds} ${juju_designs_tsv} ${juju_order_tsv} ${annotated_rna_fa}
+genome_build: ${bigBeds} ${juju_designs_tsv} ${juju_order_tsv} ${juju_order_fa} ${annotated_rna_fa}
 
 ${genome}/primers.bed: ${juju_output_dir}/*/*.primers.bed
 	${cat_beds}
@@ -73,6 +74,10 @@ ${juju_designs_tsv}: ${juju_output_dir}/*/*.designs.tsv
 
 ${juju_order_tsv}: ${juju_designs_tsv}
 	${juju_to_order} $< $@.tmp
+	mv $@.tmp $@
+
+${juju_order_fa}: ${juju_designs_tsv}
+	${juju_to_order} --fasta $< $@.tmp
 	mv $@.tmp $@
 
 ${annotated_rna_fa}: ${juju_output_dir}/*/*.debug.txt
