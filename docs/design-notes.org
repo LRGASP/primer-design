@@ -4,8 +4,8 @@
 2. import
    open -a /Applications/Microsoft\ Excel.app juju_designs.hg38.tsv 
 3. view pane -> select B2 then freeze panes
-4. select all and format -> column -> autofit
-5. make browser column blue
+4. make browser column blue
+5. select all and format -> column -> autofit
 5. save as xslx
 6. upload
    scp juju_designs.hg38.xlsx $hgwdev:public_html/lrgasp/juju-hub/hg38/
