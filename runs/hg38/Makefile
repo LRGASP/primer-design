@@ -9,7 +9,7 @@ hg38_hub_url_args = $(foreach h,${HG38_HUB_URLS},--huburl=$h)
 
 done_flag = results/done
 
-specs = specs/human_target_primers.2022-08-31.tsv
+specs = specs/human_target_primers.2022-09-03.tsv
 
 all: ${done_flag}
 
