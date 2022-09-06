@@ -1,6 +1,6 @@
 target_id	trans_track	trans_id	region_5p	region_3p	gene_name	gene_id	trans_cat	trans_structural_cat	notes	trans_notes
 IL2	manatee_consolidated	FSM-11703	"contig_12072_pilon:31,194-31,275"	"contig_12072_pilon:25,720-26,103"	IL2			ONT		"ONT two pipelines, CPM 0.85"
-IL1B+8	manatee_consolidated	 NNC-297076	"contig_14815_pilon:23,251-23,316"	"contig_14815_pilon:16,530-16,659"	IL1Beta			SPBU_ONT		"ONT 1 pipeline, CPM 49.2"
+IL1B+8	manatee_consolidated	NNC-297076	"contig_14815_pilon:23,251-23,316"	"contig_14815_pilon:16,530-16,659"	IL1Beta			SPBU_ONT		"ONT 1 pipeline, CPM 49.2"
 IL1B+8	manatee_consolidated	NNC-130500								
 IL1B+8	manatee_consolidated	NNC-130498								
 IL1B+8	manatee_consolidated	NNC-130497								
@@ -11,8 +11,8 @@ IL1B+7	manatee_consolidated	NNC-130500
 IL1B+2_long5	manatee_consolidated	NIC-118574	"contig_14815_pilon:20,921-21,033"	"contig_14815_pilon:19,451-19,726"						
 IL1B+6	manatee_consolidated	ISM-113496	"contig_14815_pilon:22,800-22,960"	"contig_14815_pilon:16,274-16,455"	IL1Beta			ONT		both ONT pipelines 5.4 CPM
 IL1B+2_long	manatee_consolidated	ISM-113494	"contig_14815_pilon:19,451-19,726"	"contig_14815_pilon:16,962-17,136"	IL1Beta			ONT		"both ONT pipelines, 2.01 CPM"
-IL1B+6_long	manatee_consolidated	NNC-130500	"contig_14815_pilon:23,251-23,316"	"contig_14815_pilon:16,530-16,659"	IL1Beta			ONT		"three ONT pipelines 2.85 CPM, if the product is not too long I don’t need to order this primer it will be amplified by ILB+8"
-IL1B+6_long	manatee_consolidated	 NNC-297076								
+IL1B+6_long	manatee_consolidated	NNC-130500	"contig_14815_pilon:23,251-23,316"	"contig_14815_pilon:16,530-16,659"	IL1Beta			ONT		"three ONT pipelines 2.85 CPM, if the product is not too long I don't need to order this primer it will be amplified by ILB+8"
+IL1B+6_long	manatee_consolidated	NNC-297076								
 IL1B+5	manatee_consolidated	NNC-250680	"contig_14815_pilon:22,063-22,110"	"contig_14815_pilon:16,530-16,659"	IL1Beta			ONT		"one ONT, 2.79 CPM"
 IL1B+5	manatee_consolidated	NNC-130500								
 IL1B+5	manatee_consolidated	NNC-130498								
@@ -30,5 +30,5 @@ IL1B+3	manatee_consolidated	ISM-113496
 IL1B+3	manatee_consolidated	NNC-130498								
 IL1B+3	manatee_consolidated	NNC-130500								
 IL1B+3	manatee_consolidated	NNC-297076								
-IL1B+4	manatee_consolidated	ISM-113494								
-IL1B+5	manatee_consolidated	NIC-118574								
+IL1B+3	manatee_consolidated	ISM-113494								
+IL1B+3	manatee_consolidated	NIC-118574
