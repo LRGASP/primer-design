@@ -50,7 +50,7 @@ Plate	Well	trans_track	region_5p	region_3p	trans_id	gene_name	target_id	notes	st
 1	49	WTC11_consolidated	chr5:16465160-16465635	chr5:16451566-16451768	FSM_28983	ZNF622	ZNF622+1	FSM-pipeline-consistent	batch1					
 1	50	WTC11_consolidated	chr12:55927736-55927895	chr12:55901584-55902023	FSM_7648	PYM1	PYM1+1	FSM-pipeline-consistent	batch1					
 1	51	WTC11_consolidated	chr12:89351849-89352353	chr12:89348825-89349325	FSM_7937	DUSP6	DUSP6+1	FSM-pipeline-consistent	batch1					
-1	52	WTC11_consolidated	chr1:211673503-211673699	chr1:211663302-211663611	FSM_913	NEK2	NEK2+1	FSM-pipeline-consistent	batch1					
+1	52	WTC11_consolidated	chr1:211673503-211673699	chr1:211663302-211663611	FSM_913	NEK2	NEK2+2	FSM-pipeline-consistent	batch1					
 1	53	WTC11_consolidated	chr16:56451104-56451305	chr16:56431487-56431918	FSM_12847	NUDT21	NUDT21+1	FSM-pipeline-consistent	batch1					
 1	54	WTC11_consolidated	chr19:10701465-10701684	chr19:10713133-10713266	FSM_18744	QTRT1	QTRT1+1	FSM-pipeline-consistent	batch1					
 1	55	WTC11_consolidated	chr2:47172426-47176508	chr2:47160222-47160784	FSM_21072	CALM2	CALM2+1	FSM-pipeline-consistent	batch1	Design primer specific to junction highlighted in region_5p				
@@ -58,7 +58,7 @@ Plate	Well	trans_track	region_5p	region_3p	trans_id	gene_name	target_id	notes	st
 1	57	WTC11_consolidated	chr7:16645518-16645644	chr7:16600492-16600893	FSM_32744	ANKMY2	ANKMY2+1	FSM-pipeline-consistent	batch2					
 1	58	WTC11_consolidated	chr1:159925451-159925479	chr1:159918699-159918831	FSM_607	TAGLN2	TAGLN2+1	FSM-pipeline-consistent	batch2					
 1	59	WTC11_consolidated	chr10:95290825-95290993	chr10:95238584-95238671	FSM_4157	PDLIM1	PDLIM1+1	FSM-pipeline-consistent	batch2					
-1	60	WTC11_consolidated	chr8:102655606-102655705	chr8:102650150-102650362	FSM_34168	KLF10	KLF10+1	FSM-pipeline-consistent	batch3					
+1	60	WTC11_consolidated	chr8:102655606-102655705	chr8:102650150-102650362	FSM_34168	KLF10	KLF10+2	FSM-pipeline-consistent	batch3					
 1	61	WTC11_consolidated	chrX:72181772-72196845	chrX:72197667-72197847	NIC_62916	PIN4	PIN4+1	NIC-pipeline-consistent	batch3	Designer primer specific to junction highlighted in region_5p. Ensure that more of the primer overlaps the upstream exon (avoiding possibility of 3'-match non-specific annealing).				
 1	62	WTC11_consolidated	chr19:48993682-48993830	chr19:49015571-49015649	NIC_58857	RUVBL2	RUVBL2+1	NIC-pipeline-consistent	batch3					
 1	63	WTC11_consolidated	chr10:72216031-72216080	chr10:72233023-72233122	NIC_39183	ANAPC16	ANAPC16+1	NIC-pipeline-consistent	batch3		May need higher read depth to find the target. Did not design a junction-specific primer.			
@@ -105,5 +105,5 @@ Plate	Well	trans_track	region_5p	region_3p	trans_id	gene_name	target_id	notes	st
 2	8	WTC11_consolidated	chr1:149923379-149923709	chr1:149901979-149902001	NNC_532635	SF3B4	SF3B4+1	NNC-pipeline-rare	batch3					
 2	9	WTC11_consolidated	chr3:125313382-125313592	chr3:125272690-125272912	NNC_534199	ZNF148	ZNF148+1	NNC-pipeline-rare	batch3					
 2	10	WTC11_consolidated	chr7:129019881-129019987	chr7:129005092-129005158	NNC_84136	TNPO3	TNPO3+1	NNC-pipeline-rare	batch3					
-2	11	WTC11_consolidated	chr15:45023332-45023361	hr15:45061081-45061202	NNC_388728	SORD	SORD+1	NNC-pipeline-rare	batch3					
+2	11	WTC11_consolidated	chr15:45023332-45023361	chr15:45061081-45061202	NNC_388728	SORD	SORD+1	NNC-pipeline-rare	batch3					
 2	12	WTC11_consolidated	chr17:78186896-78186927	chr17:78175064-78175167	NNC_80336	TK1	TK1+1	NNC-pipeline-rare	batch3					

@@ -12,7 +12,7 @@ def data_path(fname):
 
 hg38_gd = GenomeData("hg38",
                      data_path("hg38.2bit"),
-                     assembly_report=data_path("GCF_000001405.39_GRCh38.p13_assembly_report.txt"))
+                     assembly_report=data_path("GCF_000001405.40_GRCh38.p14_assembly_report.txt"))
 hg38_gd.add_track("gencodeV39",
                   data_path("gencodeV39.bb"),
                   "https://hgdownload.soe.ucsc.edu/gbdb/hg38/gencode/gencodeV39.bb")
