@@ -4,9 +4,9 @@ include ${ROOT}/defs.mk
 
 hg38_hub_url_args = $(foreach h,${HG38_HUB_URLS},--huburl=$h)
 
-debug = --debug
+# debug = --debug
 # p3debug = --primer3-debug
-targets = --target=LDHA+1
+# targets = --target=LDHA+1
 
 done_flag = results/done
 
