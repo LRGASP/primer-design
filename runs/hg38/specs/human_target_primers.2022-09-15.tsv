@@ -31,7 +31,7 @@ Plate	Well	trans_track	region_5p	region_3p	trans_id	gene_name	target_id	notes	st
 1	30	WTC11_consolidated	chr1:161314398-161328439	chr1:161356687-161356822	NIC_78892	SDHC	SDHC+1	NIC/NNC-ONT-specific	batch2	Design primer nearly centered to junction highlighted in region_5p				
 1	31	WTC11_consolidated	chr3:112345013-112347421	chr3:112361598-112362041	NNC_80928	CD200	CD200+1	NIC/NNC-ONT-specific	batch2	Design primer specific to junction highlighted in region_5p				
 1	32	WTC11_consolidated	chr15:44715416-44715581	chr15:44717650-44717855	NNC_381534	B2M	B2M+1	NIC/NNC-ONT-specific	batch2					
-1	33	WTC11_consolidated	chr7:100057187-100057745	chr7:100063876-100064052	NNC_384123	ZSCAN21	ZSCAN21+1	NIC/NNC-ONT-specific	batch2	Design primer nearly centered to junction highlighted in region_5p				
+1	33	WTC11_consolidated	chr7:100057065-100057405	chr7:100063876-100064052	NNC_384123	ZSCAN21	ZSCAN21+1	NIC/NNC-ONT-specific	batch2	Design primer nearly centered to junction highlighted in region_5p	Issue with primer overlapping 3 exons - this is updated version (220920)			
 1	34	WTC11_consolidated	chr1:63406334-63406394	chr1:63411845-63412081	NNC_39352	ALG6	ALG6+1	NIC/NNC-ONT-specific	batch2		Issue with multi-exon selection - this is updated version (220904)			
 1	35	WTC11_consolidated	chr3:150603424-150614591	chr3:150627672-150628640	NNC_383269	SELENOT	SELENOT+1	NIC/NNC-ONT-specific	batch2	Include as much of the region_5p on the second exon (10 nt)				
 1	36	WTC11_consolidated	chr1:28506235-28506311	chr1:28508848-28509017	NNC_79612	SNHG3	SNHG3+1	NIC/NNC-ONT-specific	batch2					
@@ -59,7 +59,7 @@ Plate	Well	trans_track	region_5p	region_3p	trans_id	gene_name	target_id	notes	st
 1	58	WTC11_consolidated	chr1:159925451-159925479	chr1:159918699-159918831	FSM_607	TAGLN2	TAGLN2+1	FSM-pipeline-consistent	batch2					
 1	59	WTC11_consolidated	chr10:95290825-95290993	chr10:95238584-95238671	FSM_4157	PDLIM1	PDLIM1+1	FSM-pipeline-consistent	batch2					
 1	60	WTC11_consolidated	chr8:102655606-102655705	chr8:102650150-102650362	FSM_34168	KLF10	KLF10+2	FSM-pipeline-consistent	batch3					
-1	61	WTC11_consolidated	chrX:72181772-72196845	chrX:72197667-72197847	NIC_62916	PIN4	PIN4+1	NIC-pipeline-consistent	batch3	Designer primer specific to junction highlighted in region_5p. Ensure that more of the primer overlaps the upstream exon (avoiding possibility of 3'-match non-specific annealing).				
+1	61	WTC11_consolidated	chrX:72181728-72196869	chrX:72197378-72197534	NIC_62916	PIN4	PIN4+1	NIC-pipeline-consistent	batch3	Designer primer specific to junction highlighted in region_5p. Ensure that more of the primer overlaps the upstream exon (avoiding possibility of 3'-match non-specific annealing).	Issue with not selecting a transcript region in region_3p - this is updated version (220920)			
 1	62	WTC11_consolidated	chr19:48993682-48993830	chr19:49015571-49015649	NIC_58857	RUVBL2	RUVBL2+1	NIC-pipeline-consistent	batch3					
 1	63	WTC11_consolidated	chr10:72216031-72216080	chr10:72233023-72233122	NIC_39183	ANAPC16	ANAPC16+1	NIC-pipeline-consistent	batch3		May need higher read depth to find the target. Did not design a junction-specific primer.			
 1	64	WTC11_consolidated	chr20:24970274-24970367	chr20:24963678-24963934	NIC_59594	APMAP	APMAP+1	NIC-pipeline-consistent	batch3		May need higher read depth to find the target. Did not design a junction-specific primer.			
@@ -95,7 +95,7 @@ Plate	Well	trans_track	region_5p	region_3p	trans_id	gene_name	target_id	notes	st
 1	94	WTC11_consolidated	chr5:147509575-147509883	chr5:147395645-147399166	NIC_259734	DPYSL3	DPYSL3+1	NIC-pipeline-rare	batch3					
 1	95	WTC11_consolidated	chr4:15479246-15479310	chr4:15511442-15511590	NIC_532252	CC2D2A	CC2D2A+1	NIC-pipeline-rare	batch3					
 1	96	WTC11_consolidated	chr9:128428951-128429023	chr9:128435705-128435827	NIC_532501	CERCAM	CERCAM+1	NIC-pipeline-rare	batch3					
-2	1	WTC11_consolidated	chr11:842457-842496	chr11:840309-840354	NNC_79726	POLR2L	POLR2L+1	NNC-pipeline-rare	batch3					
+2	1	WTC11_consolidated	chr11:842457-842496	chr11:840272-840443       	NNC_79726	POLR2L	POLR2L+1	NNC-pipeline-rare	batch3	Design primer specific to junction highlighted in region_3p	Issue with not selecting a transcript region in region_3p - this is updated version (220920)			
 2	2	WTC11_consolidated	chr9:7799546-7799751	chr9:7742407-7742431	NNC_534963	DMAC1	DMAC1+1	NNC-pipeline-rare	batch3					
 2	3	WTC11_consolidated	chr16:1772823-1772892	chr16:1772428-1772489	NNC_82768	MRPS34	MRPS34+1	NNC-pipeline-rare	batch3					
 2	4	WTC11_consolidated	chr1:23559115-23559143	chr1:23558247-23558363	NNC_380057	ID3	ID3+1	NNC-pipeline-rare	batch3					
