@@ -1,3 +1,10 @@
+* starting gfServer for isPcr
+
+gfServer start hgwdev.gi.ucsc.edu 12201 -stepSize=5 -log=lrgasp-hg38-pcr.log /hive/users/markd/gencode/projs/lrgasp/primers/primer-design/data/hg38/hg38_transcriptome.2bit &
+
+gfServer start hgwdev.gi.ucsc.edu 12203 -stepSize=5 -log=lrgasp-manatee-genome-pcr.log /hive/users/markd/gencode/projs/lrgasp/primers/primer-design/data/manatee/manatee.2bit &
+gfServer start hgwdev.gi.ucsc.edu 12202 -stepSize=5 -log=lrgasp-manatee-transcriptome-pcr.log /hive/users/markd/gencode/projs/lrgasp/primers/primer-design/data/manatee/manatee_transcriptome.2bit &
+
 
 * prepare spreedsheet
 1. https://hgwdev.gi.ucsc.edu/~markd/lrgasp/juju-hub/hg38/juju_designs.hg38.tsv
