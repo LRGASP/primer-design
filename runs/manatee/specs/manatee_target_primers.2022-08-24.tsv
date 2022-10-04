@@ -1,4 +1,4 @@
-target_id	trans_track	trans_id		region_5p	region_3p	gene_name	gene_id	trans_cat	trans_structural_cat	notes	trans_notes	Extra
+target_id	trans_track	trans_id	BLANK	region_5p	region_3p	gene_name	gene_id	trans_cat	trans_structural_cat	notes	trans_notes	Extra
 PTX3	manatee_consolidated	NIC-121112		"contig_6343_pilon:289,652-289,933"	"contig_6343_pilon:283,353-284,686"	PTX3			ONT/PB		both paltforms predic the same splice junction	
 IL7_long_beg	manatee_consolidated	NNC-298416		"contig_18545_pilon:301,891-301,970"	"contig_18545_pilon:304,551-304,734"	IL7			ONT		detect long exon vs two short exons 	CPM 2.4
 IL7+2	manatee_consolidated	NNC-298417		"contig_18545_pilon:301,891-301,970"	"contig_18545_pilon:308,461-309,400"	IL7			ONT/PB		detect long exon vs two short exons 	CPM 2.5

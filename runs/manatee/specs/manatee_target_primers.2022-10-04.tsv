@@ -1,0 +1,51 @@
+target_id	trans_track	trans_id	region_5p	region_3p	gene_name	gene_id	trans_cat	trans_structural_cat	notes	trans_notes
+IL2	manatee_consolidated	FSM-11703	"contig_12072_pilon:31,194-31,275"	"contig_12072_pilon:25,720-26,103"	IL2			ONT		"ONT two pipelines, CPM 0.85"
+IL1B+8	manatee_consolidated	NNC-297076	"contig_14815_pilon:23,251-23,316"	"contig_14815_pilon:16,530-16,659"	IL1Beta			SPBU_ONT		"ONT 1 pipeline, CPM 49.2"
+IL1B+8	manatee_consolidated	NNC-130500								
+IL1B+8	manatee_consolidated	NNC-130498								
+IL1B+8	manatee_consolidated	NNC-130497								
+IL1B+8	manatee_consolidated	NNC-250681								
+IL1B+8	manatee_consolidated	NNC-250679								
+IL1B+7	manatee_consolidated	NNC-130498	"contig_14815_pilon:23,251-23,316"	"contig_14815_pilon:16,274-16,455"	IL1Beta			PB/ONT		both platforms 67 CPM
+IL1B+7	manatee_consolidated	NNC-130500								
+IL1B+2_long5	manatee_consolidated	NIC-118574	"contig_14815_pilon:20,921-21,033"	"contig_14815_pilon:19,451-19,726"						
+IL1B+6	manatee_consolidated	ISM-113496	"contig_14815_pilon:22,800-22,960"	"contig_14815_pilon:16,274-16,455"	IL1Beta			ONT		both ONT pipelines 5.4 CPM
+IL1B+2_long	manatee_consolidated	ISM-113494	"contig_14815_pilon:19,451-19,726"	"contig_14815_pilon:16,962-17,136"	IL1Beta			ONT		"both ONT pipelines, 2.01 CPM"
+IL1B+5	manatee_consolidated	NNC-250680	"contig_14815_pilon:22,063-22,110"	"contig_14815_pilon:16,530-16,659"	IL1Beta			ONT		"one ONT, 2.79 CPM"
+IL1B+5	manatee_consolidated	NNC-130500								
+IL1B+5	manatee_consolidated	NNC-130498								
+IL1B+5	manatee_consolidated	NNC-130497								
+IL1B+5	manatee_consolidated	NNC-250681								
+IL1B+5	manatee_consolidated	NNC-250679								
+IL1B+5	manatee_consolidated	ISM-113496								
+IL1B+5	manatee_consolidated	NNC-297076								
+IL1B+6_long	manatee_consolidated	NNC-130500	"contig_14815_pilon:23,251-23,316"	"contig_14815_pilon:17,659-17,958"	IL1Beta			ONT		three ONT pipelines 2.85 CPM
+IL1B+3	manatee_consolidated	ISM-113495	"contig_14815_pilon:20,921-21,033"	"contig_14815_pilon:19,761-19,842"	IL1Beta			ONT		"both ONT, 1.0 CPM"
+IL1B+3	manatee_consolidated	NNC-250679								
+IL1B+3	manatee_consolidated	NNC-250681								
+IL1B+3	manatee_consolidated	NNC-130497								
+IL1B+3	manatee_consolidated	NNC-250680								
+IL1B+3	manatee_consolidated	ISM-113496								
+IL1B+3	manatee_consolidated	NNC-130498								
+IL1B+3	manatee_consolidated	NNC-130500								
+IL1B+3	manatee_consolidated	NNC-297076								
+IL1B+3	manatee_consolidated	ISM-113494								
+IL1B+3	manatee_consolidated	NIC-118574								
+PTX3	manatee_consolidated	NIC-121112	contig_6343_pilon:289,652-289,933	contig_6343_pilon:283,353-284,686	PTX3			ONT/PB		both paltforms predic the same splice junction
+IL7_long_beg	manatee_consolidated	NNC-298416	contig_18545_pilon:301,891-301,970	contig_18545_pilon:304,551-304,734	IL7			ONT		detect long exon vs two short exons 
+IL7+2	manatee_consolidated	NNC-298417	contig_18545_pilon:301,891-301,970	contig_18545_pilon:308,461-309,400	IL7			ONT/PB		detect long exon vs two short exons 
+IL7+2	manatee_consolidated	NNC-252608			IL7					
+IL7_short	manatee_consolidated	ISM-314146	contig_18545_pilon:303,262-303,353	contig_18545_pilon:308,461-309,400	IL7			ONT/PB		shorter isoform with longer exon on the 5' end same 3' primer
+TAP+1_long	manatee_consolidated	NNC-303935	contig_7963_pilon:245,910-246,078	contig_7963_pilon:248,549-248,662	TAP1			ONT		detect longer 3' end exon and extra exon
+TAP_short	manatee_consolidated	FSM-158881	contig_7963_pilon:246,326-246,450	contig_7963_pilon:248,549-248,662	TAP1			ONT		Shorter but with 2 exons 
+TAP_short	manatee_consolidated	NNC-145259			TAP1					
+TAP_short	manatee_consolidated	NNC-145266			TAP1					
+TNFAIP3+1	manatee_consolidated	NNC-302078	contig_6299_pilon:965,194-965,315	contig_6299_pilon:960,631-960,752	TNFAIP3			ONT		Detect isoforms with +1 exon 5' and another isofom that laks that exon and has an extra in the middle 
+TNFAIP3+1	manatee_consolidated	NNC-141786			TNFAIP3					
+TNFAIP3+1	manatee_consolidated	NNC-141787			TNFAIP3					
+SPP1_full	manatee_consolidated	NNC-123200	contig_10129_pilon:184,890-185,014	contig_10129_pilon:180,349-180,415	SPP1					
+SPP1_beg	manatee_consolidated	NNC-123200	contig_10129_pilon:184,890-185,014	contig_10129_pilon:182,586-182,640	SPP1					
+SPP1_end	manatee_consolidated	NNC-123200	contig_10129_pilon:182,586-182,640	contig_10129_pilon:179,194-179,238	SPP1					
+GZMK_full	manatee_consolidated	FSM-11716	contig_12137_pilon:374,858-375,216	contig_12137_pilon:358,878-359,020	GZMK					
+GZMK_beg	manatee_consolidated	FSM-11716	contig_12137_pilon:374,858-375,216	contig_12137_pilon:371,727-371,848	GZMK					
+GZMK_end	manatee_consolidated	FSM-11716	contig_12137_pilon:371,727-371,848	contig_12137_pilon:358,878-359,020	GZMK					
