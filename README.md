@@ -11,19 +11,30 @@ download to data/hg38/
 * hg38KgSeqV39.2bit https://hgdownload.soe.ucsc.edu/gbdb/hg38/targetDb/hg38KgSeqV39.2bit
 * WTC11_consolidated.bigBed http://conesalab.org/LRGASP/LRGASP_hub/hg38/Human_samples/WTC11_consolidated.bigBed
 * H1_mix_consolidated.bigBed http://conesalab.org/LRGASP/LRGASP_hub/hg38/Human_samples/H1_mix_consolidated.bigBed
+* non_redundant_FSM.bb http://conesalab.org/LRGASP/LRGASP_hub/hg38/non_redundant.Manual_Annotation/non_redundant_FSM.bb
+* non_redundant_NIC.bb http://conesalab.org/LRGASP/LRGASP_hub/hg38/non_redundant.Manual_Annotation/non_redundant_NIC.bb
+* non_redundant_NNC.bb http://conesalab.org/LRGASP/LRGASP_hub/hg38/non_redundant.Manual_Annotation/non_redundant_NNC.bb
+* human_GENCODE_tmerge_transcripts.bb http://conesalab.org/LRGASP/LRGASP_hub/hg38/non_redundant.Manual_Annotation/human_GENCODE_tmerge_transcripts.bb
+
 
 ## isPcr blat server that includes LRGASP transcript models
 
 cd data/hg38
 
-Create transcriptome bed:
+Create transcriptome bed with unique ids:
   bigBedToBed gencodeV39.bb stdout | tawk '{$4=$4"__"$18; print}' | cut -f 1-12 > gencodeV39.tmp.bed &
   bigBedToBed WTC11_consolidated.bigBed stdout | tawk '{$4=$4"_WTC11"; print}' | cut -f 1-12 > WTC11_consolidated.tmp.bed &
   bigBedToBed H1_mix_consolidated.bigBed stdout | tawk '{$4=$4"_H1_mix"; print}' | cut -f 1-12 > H1_mix_consolidated.tmp.bed &
 
+  Didn't late-comer tracks:
+    non_redundant_FSM.bb
+    non_redundant_NIC.bb
+    non_redundant_NNC.bb
+    human_GENCODE_tmerge_transcripts.bb
+    
 Toss very larges BED, NIC_195936_H1_mix is 159,002,842 RNA, 159,055,147 DNA, biggest GENCODE is 2,471,657 DNA
 
-  sort -k1,1 -k2,2n gencodeV39.tmp.bed WTC11_consolidated.tmp.bed H1_mix_consolidated.tmp.bed | tawk '$3-$2 <= 2500000' >hg38_transcriptome.tmp.bed
+  sort -k1,1 -k2,2n *.tmp.bed | tawk '$3-$2 <= 2500000' >hg38_transcriptome.tmp_all.bed
 
 Create transcriptome BigBed
   bedToBigBed -type=bed12 -tab -extraIndex=name -sizesIs2Bit hg38_transcriptome.tmp.bed /hive/data/genomes/hg38/hg38.2bit hg38_transcriptome.bb

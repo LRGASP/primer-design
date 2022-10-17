@@ -22,7 +22,18 @@ hg38_gd.add_track("WTC11_consolidated",
 hg38_gd.add_track("H1_MIX_consolidated",
                   data_path("H1_mix_consolidated.bigBed"),
                   "http://conesalab.org/LRGASP/LRGASP_hub/hg38/Human_samples/H1_mix_consolidated.bigBed")
-
+hg38_gd.add_track("non_redundant_FSM",
+                  data_path("non_redundant_FSM.bb"),
+                  "http://conesalab.org/LRGASP/LRGASP_hub/hg38/non_redundant.Manual_Annotation/non_redundant_FSM.bb")
+hg38_gd.add_track("non_redundant_NIC",
+                  data_path("non_redundant_NIC.bb"),
+                  "http://conesalab.org/LRGASP/LRGASP_hub/hg38/non_redundant.Manual_Annotation/non_redundant_NIC.bb")
+hg38_gd.add_track("non_redundant_NNC",
+                  data_path("non_redundant_NNC.bb"),
+                  "http://conesalab.org/LRGASP/LRGASP_hub/hg38/non_redundant.Manual_Annotation/non_redundant_NNC.bb")
+hg38_gd.add_track("TMERGE_transcripts",
+                  data_path("human_GENCODE_tmerge_transcripts.bb"),
+                  "http://conesalab.org/LRGASP/LRGASP_hub/hg38/non_redundant.Manual_Annotation/human_GENCODE_tmerge_transcripts.bb")
 
 genome_ispcr_spec = IsPcrServerSpec("blat1d.soe.ucsc.edu", 17903, data_dir)
 transcriptome_ispcr_spec = IsPcrServerSpec("hgwdev.gi.ucsc.edu", 12201, data_dir,
