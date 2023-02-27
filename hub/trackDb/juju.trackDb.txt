@@ -4,7 +4,7 @@ shortLabel Targets
 longLabel Targets
 type bigBed 12
 itemRgb on
-visibility full
+visibility pack
 maxItems 100000
 priority 10
 html ../empty.html
@@ -15,9 +15,20 @@ shortLabel Primers
 longLabel Primers
 type bigBed 12 +
 itemRgb on
-visibility pack
+visibility hide
 maxItems 100000
-priority 20
+priority 11
+html ../empty.html
+
+track amplicons
+bigDataUrl amplicons.bb
+shortLabel Amplicons
+longLabel Amplicons
+type bigBed 12 +
+itemRgb on
+visibility hide
+maxItems 100000
+priority 12
 html ../empty.html
 
 track transcriptome-uniqueness
@@ -28,7 +39,7 @@ type bigBed 12 +
 itemRgb on
 visibility hide
 maxItems 100000
-priority 20
+priority 13
 html ../empty.html
 
 track genome-uniqueness
@@ -39,5 +50,5 @@ type bigBed 12 +
 itemRgb on
 visibility hide
 maxItems 100000
-priority 21
+priority 14
 html ../empty.html
