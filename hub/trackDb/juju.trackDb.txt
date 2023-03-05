@@ -26,7 +26,7 @@ shortLabel Amplicons
 longLabel Amplicons
 type bigBed 12 +
 itemRgb on
-visibility hide
+visibility pack
 maxItems 100000
 priority 12
 html ../empty.html
